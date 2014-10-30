@@ -389,7 +389,7 @@ class ShopCore extends ObjectModel
 		}
 		else
 		{
-			$shop = new Shop($id_shop);
+			$shop = new Shop(1);
 			if (!Validate::isLoadedObject($shop) || !$shop->active)
 			{
 				// No shop found ... too bad, let's redirect to default shop
