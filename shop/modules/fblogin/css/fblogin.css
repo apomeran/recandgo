@@ -1,0 +1,48 @@
+div.fblogin {cursor:pointer;}
+
+div.fblogin p::before{
+    width:137px;
+    height:30px;
+    background:url('../img/fb4.png') no-repeat top right;
+    display:inline-block;
+    content:"";
+}
+
+.fblogin-link {
+float:center;
+
+display: block;
+color: white;
+font-weight: bold;
+padding: 5px 5px 5px 5px;
+text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+cursor: pointer;
+line-height: 18px;
+}
+
+
+.fbloader{
+    display:none;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    height:40px;
+    width:80px;
+    background:#3B5998 url('../img/loading.gif') no-repeat center;
+}
+
+.loginpopupsocial {
+    display:inline-block;
+    float:left;
+    margin-right:10px;
+    margin-top:5px;
+}
+.loginpopupsocial span {
+    color:#FFF!important;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2)!important;
+    font-family:arial!important;
+}
+
+.loginpopupsocial p {
+    margin-top:0px;
+}

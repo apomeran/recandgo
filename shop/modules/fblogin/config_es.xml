@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>fblogin</name>
+	<displayName><![CDATA[Facebook Login]]></displayName>
+	<version><![CDATA[1.2.6]]></version>
+	<description><![CDATA[Con este m&oacute;dulo sus clientes podr&aacute;n ingresar con su cuenta de Facebook.]]></description>
+	<author><![CDATA[ZAROmkt.com]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

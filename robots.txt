@@ -1,0 +1,6 @@
+User-agent: * 
+Disallow: /bote/wp-admin
+Disallow: /bote/wp-includes
+Disallow: /bote/wp-content/plugins
+Disallow: /bote/wp-content/cache
+Disallow: /bote/wp-content/themes
