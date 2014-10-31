@@ -37,7 +37,9 @@ if (!Tools::getSafeModeStatus())
 $smarty->setConfigDir(_PS_SMARTY_DIR_.'configs');
 $smarty->caching = false;
 $smarty->force_compile = (Configuration::get('PS_SMARTY_FORCE_COMPILE') == _PS_SMARTY_FORCE_COMPILE_) ? true : false;
+$smarty->force_compile = false;
 $smarty->compile_check = (Configuration::get('PS_SMARTY_FORCE_COMPILE') >= _PS_SMARTY_CHECK_COMPILE_) ? true : false;
+$smarty->compile_check = false;
 
 /* Use this constant if you want to load smarty without all PrestaShop functions */
 if (defined('_PS_SMARTY_FAST_LOAD_') && _PS_SMARTY_FAST_LOAD_)
