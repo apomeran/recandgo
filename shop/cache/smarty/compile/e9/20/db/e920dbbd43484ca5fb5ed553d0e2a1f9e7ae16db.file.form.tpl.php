@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2014-11-01 18:07:29
+<?php /* Smarty version Smarty-3.1.19, created on 2014-11-01 19:23:10
          compiled from "C:\xampp\htdocs\recandgo\shop\admin1014\themes\default\template\controllers\products\helpers\form\form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2114454551351039677-50825634%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:235155455250ee843a5-34548545%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2114454551351039677-50825634',
+  'nocache_hash' => '235155455250ee843a5-34548545',
   'function' => 
   array (
   ),
@@ -79,9 +79,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_545513519c49c8_56696263',
+  'unifunc' => 'content_5455250f952fc1_01996525',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_545513519c49c8_56696263')) {function content_545513519c49c8_56696263($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'C:\\xampp\\htdocs\\recandgo\\shop\\tools\\smarty\\plugins\\function.counter.php';
+<?php if ($_valid && !is_callable('content_5455250f952fc1_01996525')) {function content_5455250f952fc1_01996525($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'C:\\xampp\\htdocs\\recandgo\\shop\\tools\\smarty\\plugins\\function.counter.php';
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['fields']->value['title'])) {?><h3><?php echo $_smarty_tpl->tpl_vars['fields']->value['title'];?>
 </h3><?php }?>
@@ -556,9 +556,9 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 	</script>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2014-11-01 18:07:29
+<?php /* Smarty version Smarty-3.1.19, created on 2014-11-01 19:23:11
          compiled from "C:\xampp\htdocs\recandgo\shop\admin1014\themes\default\template\helpers\form\form_group.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_545513516ba2c3_97717303')) {function content_545513516ba2c3_97717303($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5455250f61d6d9_03351893')) {function content_5455250f61d6d9_03351893($_smarty_tpl) {?>
 
 <?php if (count($_smarty_tpl->tpl_vars['groups']->value)&&isset($_smarty_tpl->tpl_vars['groups']->value)) {?>
 <div class="row">

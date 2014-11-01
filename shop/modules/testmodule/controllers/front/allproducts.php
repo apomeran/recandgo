@@ -30,14 +30,21 @@ Class testmoduleAllproductsModuleFrontController extends ModuleFrontController
 		 
 		$products_partial = Product::getProducts($this->context->language->id, ((int)$this->p - 1) * (int)$this->n, $this->n, 'name', 'asc');
 		$products = Product::getProductsProperties($this->context->language->id, $products_partial);
-	  	
+		//var_dump($products_partial);
+		$crowd_products = array();
 		foreach ($products as $key => $product) {
+			$enabled_property = $this->module->getCrowdFundingEnabled($product['id_product']);
+			if (count($enabled_property) != 0){
+				if ($enabled_property[0]['enabled_crowdfunding'] == 1)
+					$crowd_products[] = $product;
+			}
+				
 			foreach ($products as $key => $product) {
 				$products[$key]['id_image'] = Product::getCover($product['id_product'])['id_image'];
 			}
 		}  
 		$this->context->smarty->assign(array(
-			'products' => $products,
+			'products' => $crowd_products,
 			'homeSize' => Image::getSize('home_default')
 		));
 		$this->setTemplate('allproducts.tpl');

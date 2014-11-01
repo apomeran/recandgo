@@ -42,4 +42,9 @@ class testmodule extends Module
 	{
 		return Db::getInstance()->getValue('SELECT COUNT(*) from ps_product WHERE active = 1');
 	}
+	
+	public function getCrowdFundingEnabled($id)
+	{
+		return Db::getInstance()->ExecuteS('SELECT enabled_crowdfunding from ps_product_crowdfunding WHERE id_product = ' . $id);
+	}
 }
