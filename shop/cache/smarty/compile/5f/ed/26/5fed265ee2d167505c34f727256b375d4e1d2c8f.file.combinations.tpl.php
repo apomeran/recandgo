@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2014-10-31 20:03:58
+<?php /* Smarty version Smarty-3.1.19, created on 2014-11-01 18:07:35
          compiled from "C:\xampp\htdocs\recandgo\shop\admin1014\themes\default\template\controllers\products\combinations.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:89115453dd1e408a22-40872815%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2708854551357b88126-85824334%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5fed265ee2d167505c34f727256b375d4e1d2c8f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\recandgo\\shop\\admin1014\\themes\\default\\template\\controllers\\products\\combinations.tpl',
-      1 => 1414700188,
+      1 => 1414854870,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '89115453dd1e408a22-40872815',
+  'nocache_hash' => '2708854551357b88126-85824334',
   'function' => 
   array (
   ),
@@ -44,9 +44,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5453dd1ec4dd48_30879171',
+  'unifunc' => 'content_54551357cc17f1_01155960',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5453dd1ec4dd48_30879171')) {function content_5453dd1ec4dd48_30879171($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_54551357cc17f1_01155960')) {function content_54551357cc17f1_01155960($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['product']->value->id)&&!$_smarty_tpl->tpl_vars['product']->value->is_virtual) {?>
 <div id="product-combinations" class="panel product-tab">
 	<script type="text/javascript">

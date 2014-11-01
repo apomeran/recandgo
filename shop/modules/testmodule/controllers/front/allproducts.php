@@ -13,6 +13,11 @@ Class testmoduleAllproductsModuleFrontController extends ModuleFrontController
 	{
 		parent::setMedia();
 		$this->addCSS(__PS_BASE_URI__.'modules/'.$this->module->name.'/css/'.$this->module->name.'.css');
+		$this->addCSS(array(
+				_THEME_CSS_DIR_.'scenes.css' => 'all',
+				_THEME_CSS_DIR_.'category.css' => 'all',
+				_THEME_CSS_DIR_.'product_list.css' => 'all',
+		));
 		 
 	}
 	
@@ -35,7 +40,7 @@ Class testmoduleAllproductsModuleFrontController extends ModuleFrontController
 			'products' => $products,
 			'homeSize' => Image::getSize('home_default')
 		));
-		$this->setTemplate('allproducts3.tpl');
+		$this->setTemplate('allproducts.tpl');
 		
 	}
 }

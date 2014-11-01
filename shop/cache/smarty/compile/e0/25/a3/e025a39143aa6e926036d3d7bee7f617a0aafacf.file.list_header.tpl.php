@@ -1,23 +1,23 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2014-10-31 20:03:58
+<?php /* Smarty version Smarty-3.1.19, created on 2014-11-01 18:07:35
          compiled from "C:\xampp\htdocs\recandgo\shop\admin1014\themes\default\template\controllers\products\combination\helpers\list\list_header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:23565453dd1e408a20-75258595%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:287145455135750bc56-48777113%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e025a39143aa6e926036d3d7bee7f617a0aafacf' => 
     array (
       0 => 'C:\\xampp\\htdocs\\recandgo\\shop\\admin1014\\themes\\default\\template\\controllers\\products\\combination\\helpers\\list\\list_header.tpl',
-      1 => 1414700188,
+      1 => 1414854870,
       2 => 'file',
     ),
     'c7b9420a987de4b37d5cc25f1d706b4fcd303166' => 
     array (
       0 => 'C:\\xampp\\htdocs\\recandgo\\shop\\admin1014\\themes\\default\\template\\helpers\\list\\list_header.tpl',
-      1 => 1414700189,
+      1 => 1414854870,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '23565453dd1e408a20-75258595',
+  'nocache_hash' => '287145455135750bc56-48777113',
   'function' => 
   array (
   ),
@@ -62,9 +62,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5453dd1f568430_95899700',
+  'unifunc' => 'content_54551357774721_95046680',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5453dd1f568430_95899700')) {function content_5453dd1f568430_95899700($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_54551357774721_95046680')) {function content_54551357774721_95046680($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['ajax']->value) {?>
 	<script type="text/javascript">
 		$(function () {

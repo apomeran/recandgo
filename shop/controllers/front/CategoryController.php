@@ -102,7 +102,6 @@ class CategoryControllerCore extends FrontController
 	public function initContent()
 	{
 		parent::initContent();
-		
 		$this->setTemplate(_PS_THEME_DIR_.'category.tpl');
 		
 		if (!$this->customer_access)

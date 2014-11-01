@@ -1,2 +1,2 @@
 <?xml version="1.0"?>
-<modules_list><modules type="untrusted"><module name="blockreinsurance"/><module name="fblogin"/><module name="orderfiles"/><module name="py_leetchi"/><module name="testmodule"/></modules></modules_list>
+<modules_list><modules type="untrusted"><module name="belvg_samplemodule"/><module name="blockreinsurance"/><module name="fblogin"/><module name="orderfiles"/><module name="py_leetchi"/><module name="testmodule"/><module name="textmaster"/></modules></modules_list>
