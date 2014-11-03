@@ -184,11 +184,14 @@ class FrontControllerCore extends Controller
 		if (isset($_GET['logout']) || ($this->context->customer->logged && Customer::isBanned($this->context->customer->id)))
 		{
 			$this->context->customer->logout();
-
+			$my_action = "logout";
+			require_once dirname(__FILE__) . "../../../../bote/listener.php";
 			Tools::redirect(isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : null);
 		}
 		elseif (isset($_GET['mylogout']))
 		{
+			$my_action = "logout";
+			require_once dirname(__FILE__) . "../../../../bote/listener.php";
 			$this->context->customer->mylogout();
 			Tools::redirect(isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : null);
 		}

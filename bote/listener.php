@@ -1,8 +1,16 @@
 <?php
-require( dirname( __FILE__ ) . '/wp-blog-header.php' );
-require( dirname( __FILE__ ) . '/wp-config.php' );
+include_once( dirname( __FILE__ ) . '/wp-blog-header.php' );
+include_once( dirname( __FILE__ ) . '/wp-config.php' );
 ini_set("display_errors",1);
 
+
+if ($my_action == 'change_pwd'){
+	
+	$password = $new_password;
+	$user = get_user_by( 'email', 'testchangepwd@gmail.com');
+	$user_id = $user->ID;
+	wp_set_password($password, $user_id );
+}
 //add_action('after_setup_theme', 'custom_login' );
 if ($my_action == 'register'){   // REGISTER & LOGIN
 	wp_logout();
@@ -21,6 +29,14 @@ if ($my_action == 'register'){   // REGISTER & LOGIN
 	wp_set_current_user($user->ID);
 	add_action('after_setup_theme', 'custom_login' );
 }
+
+if ($my_action == 'logout'){  
+	wp_logout();
+	wp_set_current_user(0);
+}
+
+
+
 
 if ($my_action == 'login'){  
 	wp_logout();

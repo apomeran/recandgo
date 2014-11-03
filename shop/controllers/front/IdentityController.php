@@ -47,8 +47,9 @@ class IdentityControllerCore extends FrontController
 
 		if (Tools::isSubmit('submitIdentity'))
 		{
+			
 			$email = trim(Tools::getValue('email'));
-
+			
 			if (Tools::getValue('months') != '' && Tools::getValue('days') != '' && Tools::getValue('years') != '')
 				$this->customer->birthday = (int)(Tools::getValue('years')).'-'.(int)(Tools::getValue('months')).'-'.(int)(Tools::getValue('days'));
 			elseif (Tools::getValue('months') == '' && Tools::getValue('days') == '' && Tools::getValue('years') == '')
@@ -92,16 +93,22 @@ class IdentityControllerCore extends FrontController
 					if ($module_newsletter = Module::getInstanceByName('blocknewsletter'))
 						if ($module_newsletter->active)
 							$module_newsletter->confirmSubscription($this->customer->email);
-
+				;
 				if (!Tools::getIsset('optin'))
 					$this->customer->optin = 0;
 				if (Tools::getValue('passwd'))
 					$this->context->cookie->passwd = $this->customer->passwd;
+			
+				
 				if ($this->customer->update())
 				{
+				
 					$this->context->cookie->customer_lastname = $this->customer->lastname;
 					$this->context->cookie->customer_firstname = $this->customer->firstname;
 					$this->context->smarty->assign('confirmation', 1);
+					$my_action = "change_pwd";
+					$new_password = $_REQUEST['passwd'];	
+				//	require_once dirname(__FILE__) . "../../../../bote/listener.php";
 				}
 				else
 					$this->errors[] = Tools::displayError('The information cannot be updated.');
