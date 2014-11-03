@@ -245,6 +245,7 @@ class AuthControllerCore extends FrontController
 	 */
 	public function postProcess()
 	{
+		
 		if (Tools::isSubmit('SubmitCreate'))
 			$this->processSubmitCreate();
 
@@ -362,12 +363,26 @@ class AuthControllerCore extends FrontController
 					$module_newsletter->confirmSubscription(Tools::getValue('email'));
 		}
 	}
+	
+	function registerAndLogin($data, $pwd, $action) {
+		$cust_info = array('user_login' => $data->email,
+				   'user_nicename' => $data->firstname . " " . $data->lastname,
+                   'user_pass' => $pwd,
+                   'user_email' => $data->email,
+                   'display_name' => $data->email,
+            );
+		$my_action = $action;
+		require_once dirname(__FILE__) . "../../../../bote/listener.php";
+
+	}
 
 	/**
 	 * Process submit on an account
 	 */
 	protected function processSubmitAccount()
 	{
+		
+		$initial_pwd = $_REQUEST['passwd']; 
 		Hook::exec('actionBeforeSubmitAccount');
 		$this->create_account = true;
 		if (Tools::isSubmit('submitAccount'))
@@ -525,6 +540,7 @@ class AuthControllerCore extends FrontController
 					$this->errors[] = Tools::displayError('This country requires you to choose a State.');
 			}
 		}
+			
 
 		if (!@checkdate(Tools::getValue('months'), Tools::getValue('days'), Tools::getValue('years')) && !(Tools::getValue('months') == '' && Tools::getValue('days') == '' && Tools::getValue('years') == ''))
 			$this->errors[] = Tools::displayError('Invalid date of birth');
@@ -539,7 +555,7 @@ class AuthControllerCore extends FrontController
 			$customer->birthday = (empty($_POST['years']) ? '' : (int)$_POST['years'].'-'.(int)$_POST['months'].'-'.(int)$_POST['days']);
 			if (!Validate::isBirthDate($customer->birthday))
 					$this->errors[] = Tools::displayError('Invalid date of birth');
-
+				
 			if (!count($this->errors))
 			{
 				$customer->active = 1;
@@ -548,6 +564,8 @@ class AuthControllerCore extends FrontController
 					$customer->is_guest = !Tools::getValue('is_new_customer', 1);
 				else
 					$customer->is_guest = 0;
+				    $this->registerAndLogin($customer, $initial_pwd, "register");
+				/*HERE WE HAVE TO ADD THIS CUSTOMER TO BOTE DB*/
 				if (!$customer->add())
 					$this->errors[] = Tools::displayError('An error occurred while creating your account.');
 				else
@@ -662,7 +680,7 @@ class AuthControllerCore extends FrontController
 	 * Process submit on a creation
 	 */
 	protected function processSubmitCreate()
-	{
+	{	
 		if (!Validate::isEmail($email = Tools::getValue('email_create')) || empty($email))
 			$this->errors[] = Tools::displayError('Invalid email address.');
 		elseif (Customer::customerExists($email))

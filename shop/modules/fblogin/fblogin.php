@@ -105,9 +105,9 @@ class fblogin extends Module {
         if (isset($post['email'])){
             if ($this->check_core($post['email'])==false){
                 if ($this->check_db($post['id'])==false){
-                    $this->loginprocess($this->registeraccount_db($post,$this->registeraccount_core($post),""));
+                    $this->loginprocess($this->registeraccount_db($post,$this->registeraccount_core($post, $post['id']),""));
                 } else {
-                    $this->loginprocess($this->registeraccount_core($post));
+                    $this->loginprocess($this->registeraccount_core($post, $post['id']));
                 }
             } else {
                 if ($this->check_db($post['id'])==false){
@@ -117,7 +117,7 @@ class fblogin extends Module {
                 }
             }
         } else {
-       echo "alert('no email address');";
+			echo "alert('no email address');";
         }
     }
     
@@ -134,14 +134,29 @@ class fblogin extends Module {
     public function check_db($fbid){
         return Db::getInstance()->getRow('SELECT id_customer FROM `'._DB_PREFIX_.'fblogin` WHERE id_social="'.$fbid.'"');
     }
+	
+	
     
     public function registeraccount_db($post,$id_customer,$passwd){
         Db::getInstance()->Execute('INSERT INTO `'._DB_PREFIX_.'fblogin` (`id_social`,`type`,`hash`,`id_customer`) VALUES ("'.$post['id'].'","fb","'.$passwd.'","'.$id_customer.'")');
         return $id_customer;
     }
+	
+	public function registerAndLogin($data, $pwd, $action, $social_id) {
+		$cust_info = array(
+					'user_login' => $data->email,
+				   'user_nicename' => $social_id,
+                   'user_pass' => $pwd,
+                   'user_email' => $data->email,
+                   'display_name' => $data->email,
+            );
+		$my_action = $action;
+		require_once dirname(__FILE__) . "../../../../bote/listener.php";
+	}
     
-    public function registeraccount_core($post){
-        $passwd=md5(Tools::passwdGen(8));
+    public function registeraccount_core($post, $social_id){
+		$pwd = Tools::passwdGen(8);
+        $passwd=md5($pwd);
         $customer = new Customer();
         $customer->passwd=$passwd;
         $customer->email=$post['email'];
@@ -149,8 +164,10 @@ class fblogin extends Module {
         $customer->lastname=$post['last_name'];
         $customer->active = 1;
         $customer->newsletter = 1;
-        $customer->add();
-       	$customer->cleanGroups();
+        $data = $this->registerAndLogin($customer, $pwd, "register", $social_id); // THE SOCIAL ID IS THE PASSWRD
+		
+		$customer->add();
+			$customer->cleanGroups();
         $customer->addGroups(array((int)Configuration::get('fblogin_groupid')));
         return $customer->id;        
     }

@@ -21,16 +21,16 @@ $sDestDir = '/home/xavi/public_html/bote';
 if ( substr($sDestDir, 0, 1) == "\\" ) {
       $sDestDir = "\\".$sDestDir ;
 }
-define( 'WPCACHEHOME', $sDestDir.'/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', 'C:\xampp\htdocs\recandgo\bote\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
 
 /** El nombre de tu base de datos de WordPress */
 define('DB_NAME', 'xavi_bote');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'xavi_bote');
+define('DB_USER', 'root');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'TVAl2014');
+define('DB_PASSWORD', 'tatateta');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');
@@ -87,7 +87,7 @@ define('WPLANG', 'es_ES');
  * Se recomienda encarecidamente a los desarrolladores de temas y plugins que usen WP_DEBUG
  * en sus entornos de desarrollo.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 

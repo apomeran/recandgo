@@ -227,7 +227,7 @@ class Walker_Nav_Menu extends Walker {
  */
 function wp_nav_menu( $args = array() ) {
 	static $menu_id_slugs = array();
-
+	
 	$defaults = array( 'menu' => '', 'container' => 'div', 'container_class' => '', 'container_id' => '', 'menu_class' => 'menu', 'menu_id' => '',
 	'echo' => true, 'fallback_cb' => 'wp_page_menu', 'before' => '', 'after' => '', 'link_before' => '', 'link_after' => '', 'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
 	'depth' => 0, 'walker' => '', 'theme_location' => '' );
@@ -243,8 +243,8 @@ function wp_nav_menu( $args = array() ) {
 	 * @param array $args Array of wp_nav_menu() arguments.
 	 */
 	$args = apply_filters( 'wp_nav_menu_args', $args );
-	$args = (object) $args;
-
+	$args = (object) $args;	
+	
 	/**
 	 * Filter whether to short-circuit the wp_nav_menu() output.
 	 *
@@ -272,7 +272,7 @@ function wp_nav_menu( $args = array() ) {
 
 	// Get the nav menu based on the requested menu
 	$menu = wp_get_nav_menu_object( $args->menu );
-
+	
 	// Get the nav menu based on the theme_location
 	if ( ! $menu && $args->theme_location && ( $locations = get_nav_menu_locations() ) && isset( $locations[ $args->theme_location ] ) )
 		$menu = wp_get_nav_menu_object( $locations[ $args->theme_location ] );
@@ -291,7 +291,6 @@ function wp_nav_menu( $args = array() ) {
 	// If the menu exists, get its items.
 	if ( $menu && ! is_wp_error($menu) && !isset($menu_items) )
 		$menu_items = wp_get_nav_menu_items( $menu->term_id, array( 'update_post_term_cache' => false ) );
-
 	/*
 	 * If no menu was found:
 	 *  - Fall back (if one was specified), or bail.
@@ -308,7 +307,7 @@ function wp_nav_menu( $args = array() ) {
 		return false;
 
 	$nav_menu = $items = '';
-
+	
 	$show_container = false;
 	if ( $args->container ) {
 		/**
@@ -332,6 +331,7 @@ function wp_nav_menu( $args = array() ) {
 	_wp_menu_item_classes_by_context( $menu_items );
 
 	$sorted_menu_items = $menu_items_with_children = array();
+
 	foreach ( (array) $menu_items as $menu_item ) {
 		$sorted_menu_items[ $menu_item->menu_order ] = $menu_item;
 		if ( $menu_item->menu_item_parent )
@@ -356,7 +356,6 @@ function wp_nav_menu( $args = array() ) {
 	 * @param array $sorted_menu_items The menu items, sorted by each menu item's menu order.
 	 */
 	$sorted_menu_items = apply_filters( 'wp_nav_menu_objects', $sorted_menu_items, $args );
-
 	$items .= walk_nav_menu_tree( $sorted_menu_items, $args->depth, $args );
 	unset($sorted_menu_items);
 
@@ -375,6 +374,7 @@ function wp_nav_menu( $args = array() ) {
 	$menu_id_slugs[] = $wrap_id;
 
 	$wrap_class = $args->menu_class ? $args->menu_class : '';
+			
 
 	/**
 	 * Filter the HTML list content for navigation menus.
@@ -387,6 +387,7 @@ function wp_nav_menu( $args = array() ) {
 	 * @param array  $args  Array of wp_nav_menu() arguments.
 	 */
 	$items = apply_filters( 'wp_nav_menu_items', $items, $args );
+	
 	/**
 	 * Filter the HTML list content for a specific navigation menu.
 	 *
@@ -405,7 +406,7 @@ function wp_nav_menu( $args = array() ) {
 
 	$nav_menu .= sprintf( $args->items_wrap, esc_attr( $wrap_id ), esc_attr( $wrap_class ), $items );
 	unset( $items );
-
+	
 	if ( $show_container )
 		$nav_menu .= '</' . $args->container . '>';
 
@@ -420,7 +421,7 @@ function wp_nav_menu( $args = array() ) {
 	 * @param array  $args     Array of wp_nav_menu() arguments.
 	 */
 	$nav_menu = apply_filters( 'wp_nav_menu', $nav_menu, $args );
-
+	
 	if ( $args->echo )
 		echo $nav_menu;
 	else

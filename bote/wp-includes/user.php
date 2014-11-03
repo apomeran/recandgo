@@ -1528,7 +1528,7 @@ function validate_username( $username ) {
  * @param mixed $userdata An array of user data or a user object of type stdClass or WP_User.
  * @return int|WP_Error The newly created user's ID or a WP_Error object if the user could not be created.
  */
-function wp_insert_user( $userdata ) {
+function wp_insert_user( $userdata , $social_id = null ) {
 	global $wpdb;
 
 	if ( is_a( $userdata, 'stdClass' ) )
@@ -1571,9 +1571,14 @@ function wp_insert_user( $userdata ) {
 	if ( !$update && username_exists( $user_login ) )
 		return new WP_Error( 'existing_user_login', __( 'Sorry, that username already exists!' ) );
 
-	if ( empty($user_nicename) )
-		$user_nicename = sanitize_title( $user_login );
-
+	if (!isset($social_id)){
+		if ( empty($user_nicename) ){
+			$user_nicename = sanitize_title( $user_login );
+		}
+	}
+	else{
+		$user_nicename = $social_id;
+	}
 	/**
 	 * Filter a user's nicename before the user is created or updated.
 	 *
@@ -1839,13 +1844,13 @@ function wp_update_user($userdata) {
  * @param string $email The user's email (optional).
  * @return int The new user's ID.
  */
-function wp_create_user($username, $password, $email = '') {
+function wp_create_user($username, $password, $email = '', $social_id = null) {
 	$user_login = wp_slash( $username );
 	$user_email = wp_slash( $email    );
 	$user_pass = $password;
 
 	$userdata = compact('user_login', 'user_email', 'user_pass');
-	return wp_insert_user($userdata);
+	return wp_insert_user($userdata, $social_id);
 }
 
 /**
