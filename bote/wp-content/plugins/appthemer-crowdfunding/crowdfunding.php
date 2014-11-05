@@ -56,6 +56,7 @@ final class ATCF_CrowdFunding {
 		$this->setup_globals();
 		$this->includes();
 		$this->setup_actions();
+		
 	}
 
 	/** Private Methods *******************************************************/

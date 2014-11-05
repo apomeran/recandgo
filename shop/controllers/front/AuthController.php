@@ -40,6 +40,7 @@ class AuthControllerCore extends FrontController
 	 */
 	public function init()
 	{
+		
 		parent::init();
 
 		if (!Tools::getIsset('step') && $this->context->customer->isLogged() && !$this->ajax)
@@ -83,7 +84,7 @@ class AuthControllerCore extends FrontController
 	public function initContent()
 	{
 		parent::initContent();
-
+		
 		$this->context->smarty->assign('genders', Gender::getGenders());
 
 		$this->assignDate();
@@ -251,7 +252,7 @@ class AuthControllerCore extends FrontController
 
 		if (Tools::isSubmit('submitAccount') || Tools::isSubmit('submitGuestAccount'))
 			$this->processSubmitAccount();
-
+	
 		if (Tools::isSubmit('SubmitLogin'))
 			$this->processSubmitLogin();
 	}
@@ -262,6 +263,7 @@ class AuthControllerCore extends FrontController
 	protected function processSubmitLogin()
 	{
 		Hook::exec('actionBeforeAuthentication');
+		
 		$passwd = trim(Tools::getValue('passwd'));
 		$email = trim(Tools::getValue('email'));
 		if (empty($email))
@@ -280,6 +282,7 @@ class AuthControllerCore extends FrontController
 				$this->errors[] = Tools::displayError('Authentication failed.');
 			else
 			{
+				
 				$this->context->cookie->id_compare = isset($this->context->cookie->id_compare) ? $this->context->cookie->id_compare: CompareProduct::getIdCompareByIdCustomer($customer->id);
 				$this->context->cookie->id_customer = (int)($customer->id);
 				$this->context->cookie->customer_lastname = $customer->lastname;
@@ -290,6 +293,10 @@ class AuthControllerCore extends FrontController
 				$this->context->cookie->passwd = $customer->passwd;
 				$this->context->cookie->email = $customer->email;
 				
+				$username = $customer->email;
+				$password =  $passwd;
+				$my_action = 'login';
+				require_once dirname(__FILE__) . "../../../../bote/listener.php";
 				// Add customer to the context
 				$this->context->customer = $customer;
 				

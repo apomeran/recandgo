@@ -47,14 +47,14 @@ if ($my_action == 'login'){
 	// $email = $cust_info['user_email'];
 	// $nicename = $cust_info['user_nicename'];
 	// wp_create_user($username, $password, $email, $nicename);
-	// $credentials['user_login'] = $username;
-	// $credentials['user_password'] = $password;
-	// $credentials['remember'] = true;
-	// $user = wp_signon($credentials, false);
-	// if ( is_wp_error($user) )
-			// echo $user->get_error_message();
-	// wp_set_current_user($user->ID);
-	// add_action('after_setup_theme', 'custom_login' );
+	 $credentials['user_login'] = $username;
+	 $credentials['user_password'] = $password;
+	 $credentials['remember'] = true;
+	 $user = wp_signon($credentials, false);
+	 if ( is_wp_error($user) )
+		echo $user->get_error_message();
+	 wp_set_current_user($user->ID);
+	 add_action('after_setup_theme', 'custom_login' );
 }
 
 

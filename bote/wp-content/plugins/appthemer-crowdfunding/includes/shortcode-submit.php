@@ -140,7 +140,7 @@ class ATCF_Submit_Campaign {
 
 		$min = isset ( $edd_options[ 'atcf_campaign_length_min' ] ) ? $edd_options[ 'atcf_campaign_length_min' ] : 14;
 		$max = isset ( $edd_options[ 'atcf_campaign_length_max' ] ) ? $edd_options[ 'atcf_campaign_length_max' ] : 48;
-
+	
 		$fields = array(
 			'campaign_heading' => array(
 				'label'       => __( 'Campaign Information', 'atcf' ),
@@ -150,10 +150,11 @@ class ATCF_Submit_Campaign {
 				'priority'    => 2
 			),
 			'title' => array(
-				'label'       => __( 'Title', 'atcf' ),
+				'label'       => __( 'Product', 'atcf' ),
 				'default'     => null,
-				'type'        => 'text',
+				'type'        => 'select',
 				'editable'    => false,
+				'options'     => atcf_campaign_types_active(),
 				'placeholder' => null,
 				'required'    => true,
 				'priority'    => 4
@@ -285,9 +286,7 @@ class ATCF_Submit_Campaign {
 				'priority'    => 40
 			)
 		);
-
 		$fields = apply_filters( 'atcf_shortcode_submit_fields', $fields );
-
 		uasort( $fields, __CLASS__ . '::sort_by_priority' );
 
 		return $fields;
@@ -674,10 +673,10 @@ function atcf_shortcode_submit( $atts ) {
 				/** If we _are_ editing, and the field is not editable, skip... */
 				if ( $atts[ 'editing' ] && $field[ 'editable' ] === false )
 					continue;
-
+				
 				$field = apply_filters( 'atcf_shortcode_submit_field', $key, $field, $atts, $campaign );
 				$field = apply_filters( 'atcf_shortcode_submit_field_before_render_' . $key, $field );
-
+				
 				do_action( 'atcf_shortcode_submit_field_before_' . $key, $key, $field, $atts, $campaign );
 				do_action( 'atcf_shortcode_submit_field_' . $field[ 'type' ], $key, $field, $atts, $campaign );
 				do_action( 'atcf_shortcode_submit_field_after_' . $key, $key, $field, $atts, $campaign );
