@@ -198,14 +198,14 @@ class PrestaShopWebservice
 		if ($response != '')
 		{
 			libxml_use_internal_errors(true);
-			$xml = simplexml_load_string($response);
+			$xml = simplexml_load_string($response, null, LIBXML_NOCDATA);
 			if (libxml_get_errors())
 			{
 				$msg = var_export(libxml_get_errors(), true);
 				libxml_clear_errors();
 				throw new PrestaShopWebserviceException('HTTP XML response is not parsable: '.$msg);
 			}
-			return $xml;
+			return  json_decode(json_encode((array)$xml), 1);
 		}
 		else
 			throw new PrestaShopWebserviceException('HTTP response is empty');
@@ -271,6 +271,7 @@ class PrestaShopWebservice
 	 */
 	public function get($options)
 	{
+		
 		if (isset($options['url']))
 			$url = $options['url'];
 		elseif (isset($options['resource']))
@@ -290,7 +291,6 @@ class PrestaShopWebservice
 		}
 		else
 			throw new PrestaShopWebserviceException('Bad parameters given');
-		
 		$request = self::executeRequest($url, array(CURLOPT_CUSTOMREQUEST => 'GET'));
 		
 		self::checkStatusCode($request['status_code']);// check the response validity
@@ -358,7 +358,8 @@ class PrestaShopWebservice
 		self::checkStatusCode($request['status_code']);// check the response validity
 		return self::parseXML($request['response']);
 	}
-
+	
+	
 	/**
 	 * Delete (DELETE) a resource.
 	 * Unique parameter must take : <br><br>
