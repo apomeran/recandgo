@@ -10,9 +10,9 @@
 if (!defined('ABSPATH'))
     exit;
 
-define('DEBUG', true);           // Debug mode
+define('DEBUG', false);           // Debug mode
 define('PS_SHOP_PATH', 'http://recandgo.com/shop');  // Root path of your PrestaShop store
-define('PS_WS_AUTH_KEY', 'H5X9LIPV2Y71I1M7776BXZQ4L7YMUGPZ'); // Auth key (Get it in your Back Office)
+define('PS_WS_AUTH_KEY', '6I18GYIEPVVGFB95U76Y5I8JWY9ALPEB'); // Auth key (Get it in your Back Office)
 require_once('PSWebServiceLibrary.php');
 
 /**
@@ -133,6 +133,8 @@ class ATCF_Submit_Campaign {
      * @var $instance
      */
     private static $instance;
+	
+	private static $products;
 
     /**
      * Don't create more than once instance of the class.
@@ -144,10 +146,13 @@ class ATCF_Submit_Campaign {
     public static function instance() {
         if (!isset(self::$instance)) {
             self::$instance = new self;
-        }
+			self::$products = ATCF_Submit_Campaign::getProductsFromPrestashop();
 
+        }
+		//initialJavascript();
         return self::$instance;
     }
+	
 	
 	public function SimpleXML2ArrayWithCDATASupport($xml){
 
@@ -172,9 +177,20 @@ class ATCF_Submit_Campaign {
 
 		return $array;
 	}
+    public function getFormatedProducts() {
+	   $formattedProducts = array();
+	   if (!isset(self::$products)) {
+		self::$products = $this->getProductsFromPrestashop();
+		}
+		foreach (self::$products as $sing_product){
+			$formattedProducts[$sing_product->getId()] = $sing_product->getName() . " ($". substr($sing_product->getPrice(),0,4) . ") ";
+		}
+	   return $formattedProducts;	
+	}
 
-    public function getProductsFromPrestashop() {
-        $product = array();
+
+    public static function getProductsFromPrestashop() {
+        $productArray = array();
         // Here we make the WebService Call
         try {
             $webService = new PrestaShopWebservice(PS_SHOP_PATH, PS_WS_AUTH_KEY, DEBUG);
@@ -184,9 +200,18 @@ class ATCF_Submit_Campaign {
             $opt['display'] = 'full';
             $opt['filter[active]'] = '[1]';
             $xmlArray = $webService->get($opt);
-			if (!empty($xmlArray)){
-				var_dump($xmlArray['products']['product'][0]); // CONTINUE FROM HERE
+			foreach($xmlArray['products']['product'] as $key=>$product){
+					$prod = new Crowd_Funding_Product();
+					$prod->setId($product['id']);
+					$prod->setName($product['name']['language'][0]);
+					$prod->setPrice($product['price']);
+					$prod->setCategoryId($product['id_category_default']);
+					$prod->setCondition($product['condition']);
+					$prod->setActive($product['active']);
+					$productArray[] = $prod;
+					
 			}
+			
 
             // $resources = $xml->products->children();
             // if (isset($resources)) {
@@ -210,7 +235,7 @@ class ATCF_Submit_Campaign {
             else
                 echo 'Other error';
         }
-        return $product;
+        return $productArray;
     }
 
     /**
@@ -223,9 +248,7 @@ class ATCF_Submit_Campaign {
      * @return void
      */
     private function __construct() {
-        $a = $this->getProductsFromPrestashop();
-        var_dump($a);
-        die;
+      
         $this->register_fields();
 
         /** Register the Shortcode */
@@ -249,11 +272,12 @@ class ATCF_Submit_Campaign {
         add_action('atcf_shortcode_submit_field_wp_editor', 'atcf_shortcode_submit_field_wp_editor', 10, 4);
         add_action('atcf_shortcode_submit_field_featured_image', 'atcf_shortcode_submit_field_featured_image', 10, 4);
         add_action('atcf_shortcode_submit_field_rewards', 'atcf_shortcode_submit_field_rewards', 10, 4);
+        add_action('initialJavascript', 'initialJavascript', 10, 4);
 
         /** Save Fields */
         add_action('atcf_submit_process_after', 'atcf_submit_process_after', 10, 4);
     }
-
+	
     /**
      * Register submission form fields.
      *
@@ -294,7 +318,7 @@ class ATCF_Submit_Campaign {
                 'default' => null,
                 'type' => 'select',
                 'editable' => false,
-                'options' => atcf_campaign_types_active(),
+                'options' => $this->getFormatedProducts(),
                 'placeholder' => null,
                 'required' => true,
                 'priority' => 4
@@ -1152,6 +1176,17 @@ function atcf_shortcode_submit_field_radio($key, $field, $atts, $campaign) {
             <?php
         }
 
+		
+		
+		function initialJavascript(){
+			echo '<script>document.addEventListener("DOMContentLoaded", function(event) { 
+					document.getElementsByClassName("atcf-submit-campaign-goal")[0].style.display = "none";
+					document.getElementsByClassName("atcf-submit-campaign-category")[0].style.display = "none";
+			});</script>';
+			
+		}
+		
+		
         /**
          * Image
          *
