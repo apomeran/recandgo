@@ -86,7 +86,7 @@ class Crowd_Funding_Product {
     }
 
     public function getPrice() {
-        return $this->price;
+        return (double)$this->price;
     }
 
     public function setPrice($value) {
@@ -183,7 +183,7 @@ class ATCF_Submit_Campaign {
 		self::$products = $this->getProductsFromPrestashop();
 		}
 		foreach (self::$products as $sing_product){
-			$formattedProducts[$sing_product->getId()] = $sing_product->getName() . " ($". substr($sing_product->getPrice(),0,4) . ") ";
+			$formattedProducts[$sing_product->getId()] = $sing_product->getName() . " (Goal: $". substr($sing_product->getPrice(),0,4) . ") ";
 		}
 	   return $formattedProducts;	
 	}
@@ -324,9 +324,9 @@ class ATCF_Submit_Campaign {
                 'priority' => 4
             ),
             'goal' => array(
-                'label' => sprintf(__('Goal (%s)', 'atcf'), edd_currency_filter('')),
-                'default' => null,
-                'type' => 'text',
+                'label' => sprintf(__('', 'atcf'), edd_currency_filter('')),
+                'default' => self::$products[0]->getPrice(),
+                'type' => 'hidden',
                 'editable' => false,
                 'placeholder' => edd_format_amount(800),
                 'required' => true,
@@ -354,10 +354,10 @@ class ATCF_Submit_Campaign {
                 'priority' => 10
             ),
             'category' => array(
-                'label' => __('Categories', 'atcf'),
-                'default' => null,
-                'type' => 'term_checklist',
-                'editable' => true,
+                'label' => __('', 'atcf'),
+                'default' => self::$products[0]->getCategoryId(),
+                'type' => 'hidden',
+                'editable' => false,
                 'placeholder' => null,
                 'priority' => 12
             ),
@@ -427,7 +427,7 @@ class ATCF_Submit_Campaign {
                 'priority' => 36
             ),
             'organization' => array(
-                'label' => __('Name/Organization', 'atcf'),
+                'label' => __('Name', 'atcf'),
                 'default' => null,
                 'type' => 'text',
                 'editable' => true,
