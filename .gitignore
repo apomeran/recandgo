@@ -1,4 +1,4 @@
-shop/config
-shop/cache
-shop/img
+shop/config/*
+shop/cache/*
+shop/img/*
 bote/wp-config.php

@@ -260,6 +260,27 @@ tor. Throw an exception when CURL is not installed/activated
 		self::checkStatusCode($request['status_code']);
 		return self::parseXML($request['response']);
 	}
+	
+	public function addOriginal($options)
+	{
+		$xml = '';
+
+		if (isset($options['resource'], $options['postXml']) || isset($options['url'], $options['postXml']))
+		{
+			$url = (isset($options['resource']) ? $this->url.'/api/'.$options['resource'] : $options['url']);
+			$xml = $options['postXml'];
+			if (isset($options['id_shop']))
+				$url .= '&id_shop='.$options['id_shop'];
+			if (isset($options['id_group_shop']))
+				$url .= '&id_group_shop='.$options['id_group_shop'];
+		}
+		else
+			throw new PrestaShopWebserviceException('Bad parameters given');
+		$request = self::executeRequest($url, array(CURLOPT_CUSTOMREQUEST => 'POST', CURLOPT_POSTFIELDS => $xml));
+
+		self::checkStatusCode($request['status_code']);
+		return self::parseXMLOriginal($request['response']);
+	}
 
 	/**
  	 * Retrieve (GET) a resource

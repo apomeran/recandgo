@@ -29,8 +29,8 @@
 
 // Here we define constants /!\ You need to replace this parameters
 define('DEBUG', true);
-define('PS_SHOP_PATH', 'http://www.myshop.com/');
-define('PS_WS_AUTH_KEY', 'ZQ88PRJX5VWQHCWE4EE7SQ7HPNX00RAJ');
+define('PS_SHOP_PATH', 'http://recandgo.com/shop');  // Root path of your PrestaShop store
+define('PS_WS_AUTH_KEY', '6I18GYIEPVVGFB95U76Y5I8JWY9ALPEB'); // Auth key (Get it in your Back Office)
 require_once('./PSWebServiceLibrary.php');
 
 // Here we use the WebService to get the schema of "customers" resource

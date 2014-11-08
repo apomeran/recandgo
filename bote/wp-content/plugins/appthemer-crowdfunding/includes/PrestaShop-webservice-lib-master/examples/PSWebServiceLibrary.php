@@ -49,8 +49,7 @@ class PrestaShopWebservice
 	const psCompatibleVersionsMax = '1.6.0.9';
 	
 	/**
-	 * PrestaShopWebservice 
-tor. Throw an exception when CURL is not installed/activated
+	 * PrestaShopWebservice constructor. Throw an exception when CURL is not installed/activated
 	 * <code>
 	 * <?php
 	 * require_once('./PrestaShopWebservice.php');
@@ -70,7 +69,6 @@ tor. Throw an exception when CURL is not installed/activated
 	 * @param mixed $debug Debug mode Activated (true) or deactivated (false)
 	*/
 	function __construct($url, $key, $debug = true) {
-		
 		if (!extension_loaded('curl'))
 		  throw new PrestaShopWebserviceException('Please activate the PHP extension \'curl\' to allow use of PrestaShop webservice library');
 		$this->url = $url;
@@ -189,8 +187,13 @@ tor. Throw an exception when CURL is not installed/activated
 	{
 		return $this->version;
 	}
-	
-	protected function parseXMLOriginal($response)
+
+	/**
+	 * Load XML from string. Can throw exception
+	 * @param string $response String from a CURL response
+	 * @return SimpleXMLElement status_code, response
+	 */
+	protected function parseXML($response)
 	{
 		if ($response != '')
 		{
@@ -203,29 +206,6 @@ tor. Throw an exception when CURL is not installed/activated
 				throw new PrestaShopWebserviceException('HTTP XML response is not parsable: '.$msg);
 			}
 			return $xml;
-		}
-		else
-			throw new PrestaShopWebserviceException('HTTP response is empty');
-	}
-
-	/**
-	 * Load XML from string. Can throw exception
-	 * @param string $response String from a CURL response
-	 * @return SimpleXMLElement status_code, response
-	 */
-	protected function parseXML($response)
-	{
-		if ($response != '')
-		{
-			libxml_use_internal_errors(true);
-			$xml = simplexml_load_string($response, null, LIBXML_NOCDATA);
-			if (libxml_get_errors())
-			{
-				$msg = var_export(libxml_get_errors(), true);
-				libxml_clear_errors();
-				throw new PrestaShopWebserviceException('HTTP XML response is not parsable: '.$msg);
-			}
-			return  json_decode(json_encode((array)$xml), 1);
 		}
 		else
 			throw new PrestaShopWebserviceException('HTTP response is empty');
@@ -291,7 +271,6 @@ tor. Throw an exception when CURL is not installed/activated
 	 */
 	public function get($options)
 	{
-		
 		if (isset($options['url']))
 			$url = $options['url'];
 		elseif (isset($options['resource']))
@@ -311,42 +290,13 @@ tor. Throw an exception when CURL is not installed/activated
 		}
 		else
 			throw new PrestaShopWebserviceException('Bad parameters given');
+		
 		$request = self::executeRequest($url, array(CURLOPT_CUSTOMREQUEST => 'GET'));
 		
 		self::checkStatusCode($request['status_code']);// check the response validity
 		return self::parseXML($request['response']);
 	}
-	
-	public function getOriginal($options)
-	{
-		
-		if (isset($options['url']))
-			$url = $options['url'];
-		elseif (isset($options['resource']))
-		{
-			$url = $this->url.'/api/'.$options['resource'];
-			$url_params = array();
-			if (isset($options['id']))
-				$url .= '/'.$options['id'];
-				
-			$params = array('filter', 'display', 'sort', 'limit', 'id_shop', 'id_group_shop');
-			foreach ($params as $p)
-				foreach ($options as $k => $o)
-					if (strpos($k, $p) !== false)
-						$url_params[$k] = $options[$k];
-			if (count($url_params) > 0)
-				$url .= '?'.http_build_query($url_params);
-		}
-		else
-			throw new PrestaShopWebserviceException('Bad parameters given');
-		
-		$request = self::executeRequest($url, array(CURLOPT_CUSTOMREQUEST => 'GET'));
-		self::checkStatusCode($request['status_code']);// check the response validity
-		return self::parseXMLOriginal($request['response']);
-	}
 
-	
-	
 	/**
  	 * Head method (HEAD) a resource
 	 *
@@ -408,8 +358,7 @@ tor. Throw an exception when CURL is not installed/activated
 		self::checkStatusCode($request['status_code']);// check the response validity
 		return self::parseXML($request['response']);
 	}
-	
-	
+
 	/**
 	 * Delete (DELETE) a resource.
 	 * Unique parameter must take : <br><br>
@@ -458,4 +407,3 @@ tor. Throw an exception when CURL is not installed/activated
  * @package PrestaShopWebservice
  */
 class PrestaShopWebserviceException extends Exception { }
-
