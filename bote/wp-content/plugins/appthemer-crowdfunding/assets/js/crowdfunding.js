@@ -95,7 +95,7 @@ Crowdfunding.Campaign = ( function($) {
 
 		setBasePrice : function() {
 			var basePrice = {
-				price : 1000000000, // something crazy
+				price : 0, // something crazy
 				el    : null
 			}
 

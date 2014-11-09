@@ -345,7 +345,7 @@ class ATCF_Submit_Campaign {
                 'priority' => 2
             ),
             'title' => array(
-                'label' => __('Product', 'atcf'),
+                'label' => __('Title', 'atcf'),
                 'default' => null,
                 'type' => 'select',
                 'editable' => false,
@@ -355,9 +355,9 @@ class ATCF_Submit_Campaign {
                 'priority' => 4
             ),
             'goal' => array(
-                'label' => sprintf(__('', 'atcf'), edd_currency_filter('')),
+                'label' => sprintf(__('Goal', 'atcf'), edd_currency_filter('')),
                 'default' => self::$products[0]->getPrice(),
-                'type' => 'hidden',
+                'type' => 'text',
                 'editable' => false,
                 'placeholder' => edd_format_amount(800),
                 'required' => false,
