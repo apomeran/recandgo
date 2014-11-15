@@ -122,7 +122,6 @@ function atcf_edd_add_to_cart_item( $cart_item ) {
 	}
 
 	$custom_price = edd_sanitize_amount( $custom_price );
-	
 	$price        = edd_get_cart_item_price( $cart_item[ 'id' ], $cart_item[ 'options' ] );
 
 	if ( $custom_price > $price ) {

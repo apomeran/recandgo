@@ -188,7 +188,7 @@ function atcf_shortcode_profile_campaigns( $user ) {
 				</ul>
 
 				<ul class="actions">
-					<?php if (true || ( ! $campaign->is_collected() && ( 'flexible' == $campaign->type() || $campaign->is_funded() ) && atcf_has_preapproval_gateway() )) : ?>
+					<?php if ( ! $campaign->is_collected() && ( 'flexible' == $campaign->type() || $campaign->is_funded() ) && atcf_has_preapproval_gateway() ) : ?>
 					<li><a href="<?php echo esc_url( wp_nonce_url( add_query_arg( array( 'action' => 'atcf-request-payout', 'campaign' => $campaign->ID ) ), 'atcf-request-payout' ) ); ?>" title="<?php echo esc_attr( sprintf( __( 'Request Payout for %s', 'atcf' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php _e( 'Request Payout', 'atcf' ); ?></a></li>
 					<?php endif; ?>
 
@@ -353,6 +353,7 @@ function atcf_shortcode_profile_request_payout() {
 
 	// Allow add-ons to add file attachments
 	$attachments = apply_filters( 'atcf_request_funds_attachments', array(), $campaign );
+
 	wp_mail( $from_email, $subject, $message, $headers, $attachments );
 
 	$url = isset ( $edd_options[ 'profile_page' ] ) ? get_permalink( $edd_options[ 'profile_page' ] ) : get_permalink();
