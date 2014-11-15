@@ -404,7 +404,7 @@ class ATCF_Submit_Campaign {
                 'label' => __('Description', 'atcf'),
                 'default' => null,
                 'type' => 'wp_editor',
-                'editable' => true,
+                'editable' => false,
                 'placeholder' => null,
                 'required' => true,
                 'priority' => 16
@@ -1416,10 +1416,11 @@ function atcf_shortcode_submit_field_before_tos($key, $field, $atts, $campaign) 
         /**
          * Create or update a campaign 
          */
+		$snippet_upload_files = '[wordpress_file_upload createpath="true" uploadpath="uploads/'.$fields['contact_email']['value'].'-'.trim($fields['title']['value']).'" uploadtitle="Aportar con imagenes/videos" successmessage="El archivo %filename% se subio exitosamente" successmessagecolor="#6b6b6b"]'; 
         $args = apply_filters('atcf_campaign_submit_data', array(
             'post_type' => 'download',
             'post_status' => $status,
-            'post_content' => $fields['description']['value'],
+            'post_content' => $fields['description']['value'] . " " . $snippet_upload_files,
             'post_author' => $user_id
                 ), $_POST);
         if ($fields['title']['value'])
