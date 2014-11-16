@@ -68,7 +68,16 @@ class Crowd_Funding_Product {
     protected $price;
     protected $active;
     protected $condition;
+	protected $crowd_description;
 
+	public function getDescription() {
+        return $this->crowd_description;
+    }
+
+    public function setDescription($value) {
+        $this->crowd_description = $value;
+    }
+	
     public function getId() {
         return $this->id;
     }
@@ -153,6 +162,7 @@ class ATCF_Submit_Campaign {
         if (!isset(self::$instance)) {
             self::$instance = new self;
             self::$products = ATCF_Submit_Campaign::getProductsFromPrestashop();
+			
         }
         //initialJavascript();
         return self::$instance;
@@ -234,17 +244,38 @@ class ATCF_Submit_Campaign {
             $opt['display'] = 'full';
             $opt['filter[active]'] = '[1]';
             $xmlArray = $webService->get($opt);
+			$enlace =  mysql_connect('localhost', 'root', 'tatateta');
+			if (!$enlace) {
+				die('No pudo conectarse: ' . mysql_error());
+			}
+			mysql_select_db("xavi_shop", $enlace);
+			$result = mysql_query("SELECT * FROM ps_product_crowdfunding where enabled_crowdfunding = 1");
+			$crowdArray = array();
+			
+			while ($row = mysql_fetch_assoc($result)){
+				$crowdArray[] = $row;
+			}
+			
             foreach ($xmlArray['products']['product'] as $key => $product) {
-                $prod = new Crowd_Funding_Product();
-                $prod->setId($product['id']);
-                $prod->setName($product['name']['language'][0]);
-                $prod->setPrice($product['price']);
-                $prod->setCategoryId($product['id_category_default']);
-                $prod->setCondition($product['condition']);
-                $prod->setActive($product['active']);
-                $productArray[] = $prod;
+				
+				foreach ($crowdArray as $p){
+					if ($p['id_product'] == $product['id']){
+						$prod = new Crowd_Funding_Product();
+						$prod->setId($product['id']);
+						$prod->setName($product['name']['language'][0]);
+						$prod->setPrice($product['price']);
+						$prod->setCategoryId($product['id_category_default']);
+						$prod->setCondition($product['condition']);
+						$prod->setActive($product['active']);
+						$prod->setDescription($p['textarea']);
+						$productArray[] = $prod;
+						
+					}
+				}
+                
             }
-
+			mysql_select_db("xavi_bote", $enlace);
+		//	mysql_close($enlace);
 
             // $resources = $xml->products->children();
             // if (isset($resources)) {

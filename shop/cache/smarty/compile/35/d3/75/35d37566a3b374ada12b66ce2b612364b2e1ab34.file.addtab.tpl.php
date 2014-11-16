@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2014-11-01 19:23:23
+<?php /* Smarty version Smarty-3.1.19, created on 2014-11-16 21:14:49
          compiled from "C:\xampp\htdocs\recandgo\shop\modules\additionalproductstabs\views\templates\admin\addtab.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:230025455251b8d6d55-72840199%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:23958546905b9c4b8a5-12627823%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '230025455251b8d6d55-72840199',
+  'nocache_hash' => '23958546905b9c4b8a5-12627823',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5455251b91f090_30009111',
+  'unifunc' => 'content_546905b9cdd875_44744781',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5455251b91f090_30009111')) {function content_5455251b91f090_30009111($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_546905b9cdd875_44744781')) {function content_546905b9cdd875_44744781($_smarty_tpl) {?>
 <div id="ModuleAdditionalproductstabs" class="panel product-tab">
 	<input type="hidden" name="submitted_tabs[]" value="ModuleAdditionalproductstabs" />
 	<h3><?php echo smartyTranslate(array('s'=>'Add or modify customizable properties','mod'=>'additionalproductstabs'),$_smarty_tpl);?>
