@@ -45,7 +45,7 @@ class Belvg_SampleModule extends Module {
 
         parent::__construct();
 
-        $this->displayName = $this->l('Sample Module');
+        $this->displayName = $this->l('Opciones CrowdFunding');
         $this->description = $this->l('Works with displayAdminProductsExtra and actionProductUpdate');
     }
 

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2014-11-16 21:14:39
+<?php /* Smarty version Smarty-3.1.19, created on 2014-11-16 21:22:08
          compiled from "C:\xampp\htdocs\recandgo\shop\admin1014\themes\default\template\controllers\products\prices.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1954546905af89e1b3-03587614%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2898754690770273e75-50631381%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1954546905af89e1b3-03587614',
+  'nocache_hash' => '2898754690770273e75-50631381',
   'function' => 
   array (
   ),
@@ -47,9 +47,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_546905afac9f71_34304049',
+  'unifunc' => 'content_546907704914e8_16016083',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_546905afac9f71_34304049')) {function content_546905afac9f71_34304049($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_546907704914e8_16016083')) {function content_546907704914e8_16016083($_smarty_tpl) {?>
 
 <script type="text/javascript">
 var Customer = new Object();

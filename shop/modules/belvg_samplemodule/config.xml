@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <module>
         <name>belvg_samplemodule</name>
-        <displayName><![CDATA[Belvg Sample]]></displayName>
+        <displayName><![CDATA[Crowdfunding Options]]></displayName>
         <version><![CDATA[1.0.0]]></version>
         <description><![CDATA[Works with displayAdminProductsExtra and actionProductUpdate]]></description>
         <author><![CDATA[BelVG]]></author>

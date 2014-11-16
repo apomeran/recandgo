@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2014-11-16 21:14:46
+<?php /* Smarty version Smarty-3.1.19, created on 2014-11-16 21:22:15
          compiled from "C:\xampp\htdocs\recandgo\shop\admin1014\themes\default\template\controllers\products\customization.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5284546905b6d16c20-52811155%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10268546907779f0fd4-20851586%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5284546905b6d16c20-52811155',
+  'nocache_hash' => '10268546907779f0fd4-20851586',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_546905b6d4e197_55471846',
+  'unifunc' => 'content_54690777a259d9_60295910',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_546905b6d4e197_55471846')) {function content_546905b6d4e197_55471846($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_54690777a259d9_60295910')) {function content_54690777a259d9_60295910($_smarty_tpl) {?>
 
 <?php if (isset($_smarty_tpl->tpl_vars['obj']->value->id)) {?>
 <div id="product-customization" class="panel product-tab">
