@@ -251,10 +251,16 @@ class ProductControllerCore extends FrontController
 				$return_link = Tools::safeOutput($this->context->link->getCategoryLink($this->category));
 			else
 				$return_link = 'javascript: history.back();';
-
+			$crowd_enabled =  Db::getInstance()->ExecuteS('SELECT enabled_crowdfunding from ps_product_crowdfunding WHERE id_product = ' . $this->product->id);
+			if (empty($crowd_enabled)){
+				$crowd_enabled = false;
+			}else{
+				$crowd_enabled = true;
+			}
 			$this->context->smarty->assign(array(
 				'stock_management' => Configuration::get('PS_STOCK_MANAGEMENT'),
 				'customizationFields' => $customizationFields,
+				'crowd_enabled' => $crowd_enabled,
 				'accessories' => $this->product->getAccessories($this->context->language->id),
 				'return_link' => $return_link,
 				'product' => $this->product,

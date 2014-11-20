@@ -46,6 +46,12 @@
 				<p id="admin-action-result"></p>
 			</div>
 		{/if}
+		{if isset($crowd_enabled) && $crowd_enabled}
+			<h1> Comprar via Crowdfunding</h1>
+			<div>
+				 <a href="./../../../bote/start-a-campaign?product_id={$product->id}"> Link </a> al crowdfunding
+			</div>
+		{/if}
 		{if isset($confirmation) && $confirmation}
 			<p class="confirmation">
 				{$confirmation}

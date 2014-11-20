@@ -151,11 +151,16 @@ class ATCF_Submit_Campaign {
      *
      * @return self
      */
+	public static function initializeProducts(){
+		self::$products = ATCF_Submit_Campaign::getProductsFromPrestashop();
+	} 
+	 
     public static function getProducts() {
         if (isset(self::$products)) {
             return self::$products;
         }
-        return null;
+		self::$products = ATCF_Submit_Campaign::getProductsFromPrestashop();
+        return self::$products;
     }
 
     public static function instance() {
@@ -363,10 +368,18 @@ class ATCF_Submit_Campaign {
      */
     public function register_fields() {
         global $edd_options;
-
+		ATCF_Submit_Campaign::initializeProducts();
+		$default_product = self::$products[0];
+		if (isset($_REQUEST['product_id'])){
+			foreach (self::$products as $pp){
+				if ($pp->getId() == $_REQUEST['product_id']){
+					$default_product = $pp;
+					break;
+				}
+			}
+		}
         $min = isset($edd_options['atcf_campaign_length_min']) ? $edd_options['atcf_campaign_length_min'] : 14;
         $max = isset($edd_options['atcf_campaign_length_max']) ? $edd_options['atcf_campaign_length_max'] : 48;
-
         $fields = array(
             'campaign_heading' => array(
                 'label' => __('Campaign Information', 'atcf'),
@@ -377,7 +390,7 @@ class ATCF_Submit_Campaign {
             ),
             'title' => array(
                 'label' => __('Product', 'atcf'),
-                'default' => null,
+                'default' => $default_product->getId(),
                 'type' => 'select',
                 'editable' => false,
                 'options' => $this->getFormatedProducts(),
@@ -387,7 +400,7 @@ class ATCF_Submit_Campaign {
             ),
             'goal' => array(
                 'label' => sprintf(__('', 'atcf'), edd_currency_filter('')),
-                'default' => self::$products[0]->getPrice(),
+                'default' => $default_product->getPrice(),
                 'type' => 'hidden',
                 'editable' => false,
                 'placeholder' => edd_format_amount(800),
@@ -417,7 +430,7 @@ class ATCF_Submit_Campaign {
             ),
             'category' => array(
                 'label' => __('Categories', 'atcf'),
-                'default' => self::$products[0]->getCategoryId(),
+                'default' => $default_product->getCategoryId(),
                 'type' => 'term_checklist',
                 'editable' => false,
                 'placeholder' => null,
@@ -1158,13 +1171,18 @@ function atcf_shortcode_submit_field_before_tos($key, $field, $atts, $campaign) 
      * @return void
      */
     function atcf_shortcode_submit_field_select($key, $field, $atts, $campaign) {
-        ?>
+		// foreach ($field['options'] as $k => $desc){
+			// var_dump($field['default']);
+			// var_dump($k, $desc);die;
+		// }
+		// die;
+        // ?>
         <p class="atcf-submit-campaign-<?php echo esc_attr($key); ?>">
             <label for="<?php echo esc_attr($key); ?>"><?php echo apply_filters('atcf_shortcode_submit_field_label_' . $key, esc_attr($field['label'])); ?></label>
 
             <select name="<?php echo esc_attr($key); ?>">
                 <?php foreach ($field['options'] as $k => $desc) : ?>
-                    <option value="<?php echo esc_attr($k); ?>" <?php selected($field['value'], $k); ?>><?php echo esc_attr($desc); ?></option>
+                    <option value="<?php echo esc_attr($k); ?>" <?php if ($field['default'] == $k) echo "selected"?>><?php echo esc_attr($desc); ?></option>
                 <?php endforeach; ?>
             </select>
         </p>
@@ -1451,7 +1469,7 @@ function atcf_shortcode_submit_field_before_tos($key, $field, $atts, $campaign) 
         $args = apply_filters('atcf_campaign_submit_data', array(
             'post_type' => 'download',
             'post_status' => $status,
-            'post_content' => $fields['description']['value'] . " " . $snippet_upload_files,
+            'post_content' => $fields['description']['value'] . " --- " . $selectedProduct->getDescription() . " " . $snippet_upload_files,
             'post_author' => $user_id
                 ), $_POST);
         if ($fields['title']['value'])
