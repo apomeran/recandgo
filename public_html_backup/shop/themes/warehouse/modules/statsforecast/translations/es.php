@@ -1,0 +1,34 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{statsforecast}warehouse>statsforecast_240c994d8b61c7bd68ac1c5182bbdb2e'] = 'Tabla de mando de estadísticas';
+$_MODULE['<{statsforecast}warehouse>statsforecast_d7e637a6e9ff116de2fa89551240a94d'] = 'Visitas';
+$_MODULE['<{statsforecast}warehouse>statsforecast_96b0141273eabab320119c467cdcaf17'] = 'Total';
+$_MODULE['<{statsforecast}warehouse>statsforecast_b1897515d548a960afe49ecf66a29021'] = 'Media';
+$_MODULE['<{statsforecast}warehouse>statsforecast_89c1265be62d3ba835a3d963db5956b0'] = 'Previsiones';
+$_MODULE['<{statsforecast}warehouse>statsforecast_3bb1503332637805beddb73a2dd1fe1b'] = 'Conversión';
+$_MODULE['<{statsforecast}warehouse>statsforecast_ae5d01b6efa819cc7a7c05a8c57fcc2c'] = 'Visitantes';
+$_MODULE['<{statsforecast}warehouse>statsforecast_9b945efebb006547a94415eadaa12921'] = 'Cuentas';
+$_MODULE['<{statsforecast}warehouse>statsforecast_87cac5a0b60008003ccf46dc1d49e0c3'] = 'Carritos llenos';
+$_MODULE['<{statsforecast}warehouse>statsforecast_5a9e532b24379dca2ab0e973172a78e1'] = 'Visitantes inscritos';
+$_MODULE['<{statsforecast}warehouse>statsforecast_fc26e55e0993a75e892175deb02aae15'] = 'Carritos';
+$_MODULE['<{statsforecast}warehouse>statsforecast_3fa6443ce3f838b6901b70cd812abf0d'] = 'Repartición por modos de pago';
+$_MODULE['<{statsforecast}warehouse>statsforecast_e6e42855066e7a3ae050b2c698021b14'] = 'Zona:';
+$_MODULE['<{statsforecast}warehouse>statsforecast_5ed26836c96d7dcae8a40307e8e250c3'] = '-No hay filtros-';
+$_MODULE['<{statsforecast}warehouse>statsforecast_e55f75a29310d7b60f7ac1d390c8ae42'] = 'Módulo';
+$_MODULE['<{statsforecast}warehouse>statsforecast_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Volumen de ventas';
+$_MODULE['<{statsforecast}warehouse>statsforecast_f13877f6ad53ce91fcb20fb8b7969698'] = 'Repartición por categorías';
+$_MODULE['<{statsforecast}warehouse>statsforecast_b3ff996fe5c77610359114835baf9b38'] = 'Zona';
+$_MODULE['<{statsforecast}warehouse>statsforecast_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Categoría';
+$_MODULE['<{statsforecast}warehouse>statsforecast_88183b946cc5f0e8c96b2e66e1c74a7e'] = 'Desconocido';
+$_MODULE['<{statsforecast}warehouse>statsforecast_f1dd68fb6a00d3e4d7f751deacde995d'] = 'Repartición por idiomas';
+$_MODULE['<{statsforecast}warehouse>statsforecast_699aed86dada6ca01ef74013a4464066'] = 'Evolución';
+$_MODULE['<{statsforecast}warehouse>statsforecast_07aa83862ec591697b4325b66d36a78b'] = 'Repartición por zonas';
+$_MODULE['<{statsforecast}warehouse>statsforecast_ec0fc0100c4fc1ce4eea230c3dc10360'] = 'Indefinido';
+$_MODULE['<{statsforecast}warehouse>statsforecast_28e81c8343702f6c813cc31a7f90616a'] = 'Repartición por divisas';
+$_MODULE['<{statsforecast}warehouse>statsforecast_386c339d37e737a436499d423a77df0c'] = 'Divisa';
+$_MODULE['<{statsforecast}warehouse>statsforecast_61569923d8075889a162c4e603258e6e'] = 'Volumen de ventas (convertido)';
+$_MODULE['<{statsforecast}warehouse>statsforecast_8471eed257db7258f935588a664ba4f3'] = 'Repartición de las ventas por atributos';
+$_MODULE['<{statsforecast}warehouse>statsforecast_03937134cedab9078be39a77ee3a48a0'] = 'Grupo';
+$_MODULE['<{statsforecast}warehouse>statsforecast_f2bbdf9f72c085adc4d0404e370f0f4c'] = 'Atributo';

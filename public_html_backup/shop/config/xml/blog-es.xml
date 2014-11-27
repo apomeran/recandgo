@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blog ES</title>
+	<atom:link href="http://www.prestashop.com/blog/es/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.prestashop.com/blog/es</link>
+	<description>Un blog de Ecommerce sobre cómo gestionar una tienda online.</description>
+	<lastBuildDate>Fri, 21 Nov 2014 15:50:07 +0000</lastBuildDate>
+	<language>es-ES</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.4</generator>
+		<item>
+		<title>Alerta de seguridad sobre el módulo de PayPal Europe: Requiere actuación antes del 3 de diciembre de 2014</title>
+		<link>http://www.prestashop.com/blog/es/alerta-de-seguridad-sobre-el-modulo-de-paypal-europe-requiere-actuacion-antes-del-3-de-diciembre-de-2014/</link>
+		<comments>http://www.prestashop.com/blog/es/alerta-de-seguridad-sobre-el-modulo-de-paypal-europe-requiere-actuacion-antes-del-3-de-diciembre-de-2014/#comments</comments>
+		<pubDate>Fri, 21 Nov 2014 15:15:12 +0000</pubDate>
+		<dc:creator>Quentin Audrain</dc:creator>
+				<category><![CDATA[Actualidad PrestaShop]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=12202</guid>
+		<description><![CDATA[Buenos días, comunidad PrestaShop. Os informamos de que se ha producción un problema de seguridad en todo el sector con SSL V3 que afecta a PayPal. Recordamos que SSL (secure sockets layer o capa de conexión segura) es un protocolo &#8230; <a href="http://www.prestashop.com/blog/es/alerta-de-seguridad-sobre-el-modulo-de-paypal-europe-requiere-actuacion-antes-del-3-de-diciembre-de-2014/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p><img class="aligncenter size-large wp-image-12203" title="paypal_banner" src="http://www.prestashop.com/blog/es/files/2014/11/paypal_banner-1024x537.png" alt="PayPal" width="584" height="306" /></p>
+<p>Buenos días, comunidad PrestaShop.</p>
+<p>Os informamos de que se ha producción un problema de seguridad en todo el sector con SSL V3 que afecta a PayPal. Recordamos que SSL (secure sockets layer o capa de conexión segura) es un protocolo de criptografía diseñado para garantizar la seguridad de las comunicaciones en Internet. Este problema de la versión 3 de SSL se conoce en el sector como <a href="https://www.openssl.org/~bodo/ssl-poodle.pdf" target="_blank">POODLE</a>.</p>
+<p>Debido a esta incidencia, será necesario actualizar el módulo de PayPal Europe para PrestaShop antes del 3 de diciembre de 2014. La actualización solo requiere unos minutos y os animamos a hacerla lo antes posible.<span id="more-12202"></span></p>
+<p><em><span style="text-decoration: underline;">Si no has editado los archivos de tu módulo</span></em></p>
+<p>Ve a la sección de módulos del back-office de tu tienda y actualiza el módulo con la herramienta automática. <a href="http://www.prestashop.com/download/pdf/PrestaShop_POODLE_ES.pdf" target="_blank">Puedes consultar este tutorial</a>.</p>
+<p><em><span style="text-decoration: underline;">Si has editado los archivos de tu módulo</span></em></p>
+<p>Consulta <a href="http://www.prestashop.com/download/pdf/PayPal_SSL_to_TLS.pdf" target="_blank">la documentación</a> que hemos preparado para ayudarte a actualizar. Solo tardarás un par de minutos.</p>
+<p>PayPal está proporcionando información actualizada a su comunidad a través de <a href="https://www.paypal-community.com/t5/PayPal-Forward/UPDATE-PayPal-Response-to-SSL-v3-Vulnerability-aka-POODLE/ba-p/902239" target="_blank">su blog</a>. Si tienes alguna duda, ponte en contacto con el s<a href="https://ppmts.custhelp.com/app/answers/detail/a_id/1182/session/L3RpbWUvMTQxNjIyMTUxNy9zaWQvRVlua2tFN20%3D" target="_blank">ervicio de asistencia técnica</a> de PayPal.</p>
+<p>Gracias por vuestra atención,<br />
+El equipo de productos de PrestaShop</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/alerta-de-seguridad-sobre-el-modulo-de-paypal-europe-requiere-actuacion-antes-del-3-de-diciembre-de-2014/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Navidad 2014: Posiciónate en las guías de compra: ¡venderás más y optimizarás el coste de tus campañas!</title>
+		<link>http://www.prestashop.com/blog/es/navidad-2014-posicionate-en-las-guias-de-compra-venderas-mas-y-optimizaras-el-coste-de-tus-campanas/</link>
+		<comments>http://www.prestashop.com/blog/es/navidad-2014-posicionate-en-las-guias-de-compra-venderas-mas-y-optimizaras-el-coste-de-tus-campanas/#comments</comments>
+		<pubDate>Wed, 19 Nov 2014 16:49:31 +0000</pubDate>
+		<dc:creator>Camille Sila</dc:creator>
+				<category><![CDATA[Asociados PrestaShop]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=12193</guid>
+		<description><![CDATA[Cuando arranca la temporada navideña, los consumidores se lanzan en busca del regalo ideal al mejor precio. Y las guías de compra registran su máximo de visitas antes de las fiestas. ¿No te parece el momento ideal para conquistar a &#8230; <a href="http://www.prestashop.com/blog/es/navidad-2014-posicionate-en-las-guias-de-compra-venderas-mas-y-optimizaras-el-coste-de-tus-campanas/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Cuando arranca la temporada navideña, los consumidores se lanzan en busca del regalo ideal al mejor precio. Y las guías de compra registran su máximo de visitas antes de las fiestas. ¿No te parece el momento ideal para conquistar a nuevos clientes? ¡Empieza ya a preparar tus campañas de posicionamiento en buscadores para asegurarte unas buenas ventas en este periodo crucial!</p>
+<p>Optimizar el momento de lanzamiento de la campaña de posicionamiento está bien&#8230; pero optimizar su coste ¡es aún mejor! La guía de compra Twenga te ofrece una herramienta que te ayudará a aprovechar al máximo las fiestas: el CPC dinámico.</p>
+<p><img class="aligncenter size-large wp-image-12196" title="twenga" src="http://www.prestashop.com/blog/es/files/2014/11/twenga-1024x537.jpg" alt="Twenga header" width="584" height="306" /></p>
+<p><span id="more-12193"></span></p>
+<h4>La temporada alta de las guías de compra: ¡sal a buscar nuevos clientes!</h4>
+<p>En 2013, el tráfico de Twenga aumentó un 30% durante la primera semana de noviembre y su tasa de conversión, ¡un 60%!<br />
+El efecto navideño también se nota en el carro de la compra, que multiplica su valor medio.</p>
+<p>¿Quieres sacarle todo el jugo a este increíble escaparate? Recuerda que una campaña de posicionamiento necesita unas dos semanas para alcanzar su punto óptimo. Y no olvides que no son solo las navidades: las rebajas de principios de año también ayudan a rentabilizar la inversión en posicionamiento&#8230;</p>
+<h4>Aprovecha su sistema de precios optimizado</h4>
+<p>La mayoría de las plataformas de posicionamiento proponen un coste por clic fijo por categoría pero&#8230; no todos los clics de los posibles compradores valen lo mismo.</p>
+<p>Con un sistema de CPC dinámico, pagas por cada clic un precio más cercano a su valor real. Es decir, a su capacidad de conversión en tu tienda online. Y gracias a ello incrementas la rentabilidad de tu campaña.</p>
+<p>Twenga oferta un CPC dinámico que se basa en un algoritmo con el que se mide la probabilidad de que un usuario compre uno de tus productos. Este algoritmo tiene en cuenta cientos de criterios: hora de conexión, dispositivo utilizado, historial de compras del usuario, etc.</p>
+<p>Con un CPC optimizado según las posibilidades de venta, pagas un precio más justo por los clics.</p>
+<h4>Lanza tu campaña de posicionamiento sin esfuerzo</h4>
+<p>Con el módulo gratuito Twenga, lanzar una campaña con CPC dinámico es coser y cantar: ¡exporta el catálogo e instala el seguimiento de ventas en dos clics! Además, con el módulo Twenga puedes vender en tres países (Francia, Italia y España). ¡Pon en marcha tu campaña gratis y sin obligaciones de permanencia!</p>
+<p>Descarga el módulo Twenga gratuito</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/navidad-2014-posicionate-en-las-guias-de-compra-venderas-mas-y-optimizaras-el-coste-de-tus-campanas/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Diez métricas esenciales de e-commerce para Google Analytics</title>
+		<link>http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/</link>
+		<comments>http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/#comments</comments>
+		<pubDate>Tue, 18 Nov 2014 16:16:06 +0000</pubDate>
+		<dc:creator>Kunle Campbell</dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=12174</guid>
+		<description><![CDATA[Para empezar partiremos de la base de que hace tiempo que gestionas tu sitio de comercio electrónico y que ya haces un seguimiento de las métricas básicas desde tu cuenta de Google Analytics: Transacciones Ingresos de transacciones Gastos de envío &#8230; <a href="http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p><img class="aligncenter size-large wp-image-12177" title="google-analytics-ecommerce" src="http://www.prestashop.com/blog/es/files/2014/11/google-analytics-ecommerce-1024x537.png" alt="Google Analytics" width="584" height="306" /><br />
+Para empezar partiremos de la base de que hace tiempo que gestionas tu sitio de comercio electrónico y que ya haces un seguimiento de las métricas básicas desde tu cuenta de Google Analytics:</p>
+<ol>
+<ul>
+<li>Transacciones</li>
+<li>Ingresos de transacciones</li>
+<li>Gastos de envío de transacciones</li>
+<li>Impuestos de transacciones</li>
+<li>Cantidad de productos</li>
+<li>Compras únicas</li>
+<li>Ingresos del producto</li>
+</ul>
+</ol>
+<p>En este artículo repasamos diez métricas complementarias pero esenciales que deberías seguir con Google Analytics. Te ayudarán a entender mejor el rendimiento y el flujo de usuarios a través del embudo de conversión. ¡Tendrás una perspectiva distinta de tu tienda online! <span id="more-12174"></span>Estas métricas son:</p>
+<ol>
+<li><span style="color: #444444;"><a href="http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/#Buy-to-Detail-Rate"><span style="color: #333333;">Porcentaje compra/detalle</span></a></span></li>
+<li><span style="color: #444444;"><a href="http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/#Internal-Promotion-Clicks-and-Views"><span style="color: #333333;">Clics y vistas de la promoción interna</span></a></span></li>
+<li><span style="color: #444444;"><a href="http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/#Product-Adds-To-Cart"><span style="color: #333333;">Número de veces que el producto se ha agregado al carrito</span></a></span></li>
+<li><span style="color: #444444;"><a href="http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/#Product-Removes-From-Cart"><span style="color: #333333;">Número de veces que el producto se ha retirado del carrito</span></a></span></li>
+<li><span style="color: #444444;"><a href="http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/#Product-Checkouts"><span style="color: #333333;">Número de pagos de productos</span></a></span></li>
+<li><span style="color: #444444;"><a href="http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/#Cost-Per-Acquisition-CPA"><span style="color: #333333;">Coste por adquisición (CPA)</span></a></span></li>
+<li><span style="color: #444444;"><a href="http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/#Product-Refunds"><span style="color: #333333;">Número de productos devueltos</span></a></span></li>
+<li><span style="color: #444444;"><a href="http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/#Customer-Lifetime-Value"><span style="color: #333333;">Valor del tiempo de vida del cliente</span></a></span></li>
+<li><span style="color: #444444;"><a href="http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/#Repeat-Purchase-Rate"><span style="color: #333333;">Porcentaje de clientes que vuelven a comprar</span></a></span></li>
+<li><span style="color: #444444;"><a href="http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/#Revenue-Per-Session"><span style="color: #333333;">Ingresos por sesión</span></a></span></li>
+</ol>
+<p>Para el seguimiento de algunas de estas métricas basta con usar el servicio de <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce" target="_blank">comercio electrónico mejorado</a> que acaba de introducir Google. Otras podrás encontrarlas en las tablas y en las opciones de personalización. Veamos cada una de las métricas con más detalle.<br />
+<a name="Buy-to-Detail-Rate"></a></p>
+<h4><span style="color: #f7981d;"><strong>1. Porcentaje compra/detalle</strong></span></h4>
+<p>Es el número de compras únicas divididas entre las vistas de las páginas de detalles de producto (comercio electrónico mejorado). Se encuentra en:<br />
+<strong>Comercio electrónico -&gt; Rendimiento del producto</strong><br />
+<img class="aligncenter  wp-image-12180" title="Metrics-for-Google-Analytics-1" src="http://www.prestashop.com/blog/es/files/2014/11/Metrics-for-Google-Analytics-1.png" alt="" width="580" height="358" /><br />
+Te ayudará a responder a la siguiente pregunta:</p>
+<p style="padding-left: 30px;">• ¿Con qué productos muestran los usuarios una mayor tendencia a la compra tras consultar la página de detalles del producto?</p>
+<p><a name="Internal-Promotion-Clicks-and-Views"></a></p>
+<h4><span style="color: #f7981d;"><strong>2. Clics y vistas de la promoción interna</strong></span></h4>
+<p>Esta es una métrica esencial para hacer un seguimiento eficaz y decidir si debes hacer promociones internas. Te permite conocer:</p>
+<ol>
+<ul>
+<li>Las promociones más visitas</li>
+<li>Las promociones que han generado más clics</li>
+<li>El porcentaje de clics (CTR) de cada promoción (CTR de la promoción interna)</li>
+</ul>
+</ol>
+<p>Puedes encontrar este conjunto de métricas en:<br />
+<strong>Comercio electrónico-&gt;Marketing-&gt;Promoción interna:</strong></p>
+<p><img class="aligncenter size-full wp-image-12181" title="Metrics-for-Google-Analytics-2" src="http://www.prestashop.com/blog/es/files/2014/11/Metrics-for-Google-Analytics-2.png" alt="" width="580" height="182" /><br />
+<a name="Product-Adds-To-Cart"></a></p>
+<h4><strong><span style="color: #f7981d;">3. Número de veces que el producto se ha agregado al carrito</span></strong></h4>
+<p>Es una métrica imprescindible ya que muestra el número de veces que los compradores han añadido productos a su carro de la compra. Se puede seguir tanto desde las opciones de comercio electrónico mejorado como configurando el seguimiento de eventos para los clics de los usuarios en los botones de añadir al carrito.</p>
+<p>Si optas por las funciones de comercio electrónico mejorado, encontrarás esta métrica en:<br />
+<strong>Comercio electrónico-&gt;Análisis de las compras-&gt;Rendimiento de la lista de productos</strong></p>
+<p><img class="aligncenter size-full wp-image-12182" title="Metrics-for-Google-Analytics-3" src="http://www.prestashop.com/blog/es/files/2014/11/Metrics-for-Google-Analytics-3.png" alt="" width="580" height="246" /></p>
+<p>Con esta métrica no solo sabrás cuántas veces se añaden los productos al carrito, también podrás analizar por qué algunos productos tienen una mayor tasa de conversión a compra que otros.<br />
+<a name="Product-Removes-From-Cart"></a></p>
+<h4><span style="color: #f7981d;"><strong>4. Número de veces que el producto se ha retirado del carrito</strong></span></h4>
+<p>Esta métrica muestra el número de veces que los productos se han retirado del carrito. Puedes seguirla desde las funciones de comercio electrónico mejorado o configurar el seguimiento de un evento para las retiradas de productos del carro. Asegúrate de saber qué productos son los que más se añaden y luego se retiran del carrito.</p>
+<p>Sigue la &#8220;<strong>Tasa media de retiradas del carrito</strong>&#8220;, que es igual al<br />
+Total de retiradas del carrito / Productos agregados al carrito.<br />
+<a name="Product-Checkouts"></a></p>
+<h4><span style="color: #f7981d;"><strong>5. Número de pagos de productos</strong></span></h4>
+<p>Esta métrica es similar a la de los productos agregados al carrito y da cuenta del número de productos que se han incluido en el proceso de pago. Puedes controlarla tanto desde las opciones de seguimiento de comercio electrónico mejorado como con un evento de seguimiento de los clics que se hacen en el botón &#8220;Continuar y pagar&#8221;.</p>
+<p><img class="aligncenter size-full wp-image-12183" title="Metrics-for-Google-Analytics-4" src="http://www.prestashop.com/blog/es/files/2014/11/Metrics-for-Google-Analytics-4.png" alt="" width="580" height="225" /></p>
+<p>Y no lo olvides: también deberás analizar el caso de los productos que pasan al proceso de pago pero acaban convirtiéndose en pedidos abandonados.<br />
+<a name="Cost-Per-Acquisition-CPA"></a></p>
+<h4><span style="color: #f7981d;"><strong>6. Coste por adquisición (CPA)</strong></span></h4>
+<p>Se trata de una métrica esencial que puede calcularse y medirse desde dos perspectivas:</p>
+<ol>
+<li>¿Cuál es el CPA que te puedes permitir y que mantiene tu negocio boyante?</li>
+<li>¿Cuál es tu CPA real según los costes de tráfico en los medios?</li>
+</ol>
+<p>Sigue ambas cifras y compáralas:<br />
+<strong>CPA previsto para canal frente a CPA real</strong></p>
+<p><img class="aligncenter size-full wp-image-12184" title="Metrics-for-Google-Analytics-5" src="http://www.prestashop.com/blog/es/files/2014/11/Metrics-for-Google-Analytics-5.png" alt="" width="580" height="157" /><br />
+<a name="Product-Refunds"></a></p>
+<h4><strong><span style="color: #f7981d;">7. Número de productos devueltos</span></strong></h4>
+<p>Esta métrica que está disponible en el seguimiento de comercio electrónico mejorado indica el número de devoluciones que se han producido. Consulta el apartado <strong>Comercio electrónico-&gt;Rendimiento del producto</strong> para saber qué productos tienen una mayor <strong>tasa de devoluciones</strong> (se puede calcular como el importe total de las devoluciones entre los ingresos de productos).</p>
+<p><a name="Customer-Lifetime-Value"></a></p>
+<h4><strong><span style="color: #f7981d;">8. Valor del tiempo de vida del cliente</span></strong></h4>
+<p>Esta métrica no está directamente disponible en ningún informe, sin embargo es muy útil y valiosa ya que muestra el número de clientes que hacen varias compras en tu tienda e indica su aportación a tu negocio. Crea un segmento avanzado como el siguiente para saber cuántos usuarios han hecho más de una compra en tu tienda online:</p>
+<p><img class="aligncenter size-full wp-image-12185" title="Metrics-for-Google-Analytics-6" src="http://www.prestashop.com/blog/es/files/2014/11/Metrics-for-Google-Analytics-6.png" alt="" width="580" height="260" /></p>
+<p>Con los resultados del análisis del segmento de clientes asiduos podrás responder a la siguiente pregunta:</p>
+<ol>
+<ol>
+<ul>
+<li>¿Cuánto puedes permitirte pagar por una adquisición prevista (tu CPA previsto) sabiendo que puedes recuperar el dinero en X meses si un cliente que te visita por primera vez se convierte en un clientes asiduo?</li>
+</ul>
+</ol>
+</ol>
+<p><a name="Repeat-Purchase-Rate"></a></p>
+<h4><span style="color: #f7981d;"><strong>9. Porcentaje de clientes que vuelven a comprar</strong></span></h4>
+<p>Esta métrica está relacionada con la anterior, el CLF (valor del tiempo de vida del cliente), y se calcula con el número de compras de los clientes que vuelven a comprar dividido entre todas las compras de una tienda en un periodo dado. Simplemente aporta información extra desde la perspectiva de la planificación en los medios.<br />
+<a name="Revenue-Per-Session"></a></p>
+<h4><span style="color: #f7981d;"><span style="font-weight: bold;">10. Ingresos por sesión</span></span></h4>
+<p>Esta es una métrica imprescindible que debes controlar sin ninguna duda. Te permite identificar claramente y fijar el CPA (coste por adquisición) y el CPC (coste por clic) de tu tienda cuando lanzas campañas de adquisición de tráfico basadas en los índices CPC/CPA.</p>
+<p>Un ejemplo: si tienes 1.000 sesiones (lo que antes se llamaban visitas) y esas sesiones generan un beneficio de 10.000 dólares, entonces</p>
+<p style="padding-left: 30px;"><strong>Ingresos por sesión = 10.000 $/1.000 = 10 $</strong></p>
+<p>Teniendo en cuenta esta cifra y sabiendo que tu margen de beneficios es de, por ejemplo, el 20 %, podrás deducir que puedes pagar hasta 2 $ por sesión (o clic).</p>
+<h4><span style="color: #f7981d;"><strong>Síntesis</strong></span></h4>
+<p>Aunque normalmente es mejor tener más datos que menos, una cantidad excesiva de información puede resultar confusa y frustrante hasta para los analistas más experimentados. Centrarte en métricas de rendimiento concretas es la única forma de obtener información relevante y extrapolable que realmente sea útil y genere valor.</p>
+<h4><span style="color: #000000;">Sobre Kunle:</span></h4>
+<p>Kunle Campbell es una asesoría especializada en marketing para comercio electrónico que trabaja con empresas online de tamaño medio. Contribuye a impulsar el crecimiento empresarial y el aumento de la rentabilidad mediante la adquisición de clientes (impulsando el tráfico), la optimización de la conversión y el mantenimiento de clientes. Todas estas estrategias se basan en datos y métricas. Puedes leer más artículos de Kunle en su blog <a href="http://www.2xmedia.co/" target="_blank">2x Media</a>. Y también puedes seguirlos en <a href="https://twitter.com/KunleTCampbell" target="_blank">Twitter</a>, <a href="https://plus.google.com/+KunleCampbell/" target="_blank">Google+</a> y <a href="https://www.facebook.com/kunletcampbell" target="_blank">Facebook</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/diez-metricas-esenciales-de-e-commerce-para-google-analytics/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Siete formas gratuitas de aprender a programar como un profesional</title>
+		<link>http://www.prestashop.com/blog/es/siete-formas-gratuitas-de-aprender-a-programar-como-un-profesional/</link>
+		<comments>http://www.prestashop.com/blog/es/siete-formas-gratuitas-de-aprender-a-programar-como-un-profesional/#comments</comments>
+		<pubDate>Mon, 17 Nov 2014 09:16:23 +0000</pubDate>
+		<dc:creator>Natalie Beigel</dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=12155</guid>
+		<description><![CDATA[Ahora más que nunca, los conocimientos de programación están abriendo las puertas a un sinfín de posibilidades, sobre todo en el comercio electrónico. Aunque no hace falta que sepas programar para tener una tienda online, te ayudará a conseguir los &#8230; <a href="http://www.prestashop.com/blog/es/siete-formas-gratuitas-de-aprender-a-programar-como-un-profesional/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Ahora más que nunca, los conocimientos de programación están abriendo las puertas a un sinfín de posibilidades, sobre todo en el comercio electrónico. Aunque no hace falta que sepas programar para tener una tienda online, te ayudará a conseguir los resultados que buscas.</p>
+<p>Ya no tienes que contratar un costoso servicio para las tareas sencillas de programación, ¡hazlo tú mismo gratis! Aquí tienes siete recursos en línea para aprender a programar cómodamente desde casa.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-12156" title="7-resources-code-1024x537" src="http://www.prestashop.com/blog/es/files/2014/11/7-resources-code-1024x537.png" alt="Header" width="553" height="290" /></p>
+<p><span id="more-12155"></span></p>
+<h4>1. <a href="http://www.codecademy.com/" target="_blank">Codecademy</a></h4>
+<p><img class="aligncenter size-full wp-image-12159" title="1 codeacademy" src="http://www.prestashop.com/blog/es/files/2014/11/1-codeacademy.png" alt="codeacademy" width="575" height="314" /></p>
+<p>Con más de 24 millones de usuarios, <a href="http://www.codecademy.com/" target="_blank">Codecademy</a> es el lugar ideal para conocer los entresijos de la programación de sitios web, sitios web interactivos y aplicaciones Rails. Descúbrelo todo sobre HTML, Javascript, jQuery, Python, Ruby y PHP.</p>
+<h4>2. <a href="https://www.udemy.com/courses/search/?q=coding&amp;p=1&amp;price=price-free&amp;view=grid" target="_blank">Udemy</a></h4>
+<p><img class="aligncenter size-full wp-image-12160" title="2 udemy" src="http://www.prestashop.com/blog/es/files/2014/11/2-udemy.png" alt="udemy" width="575" height="283" /></p>
+<p><a href="https://www.udemy.com/courses/search/?q=coding&amp;p=1&amp;price=price-free&amp;view=grid" target="_blank">Udemy</a> es la academia en línea más grande del mundo con más de 4 millones de estudiantes. Los cursos los imparte un especialista y están disponibles bajo petición. Filtra los cursos gratuitos por nivel y encuentra el que mejor se adapte a tus necesidades.</p>
+<h4>3. <a href="http://thecodeplayer.com/ " target="_blank">TheCodePlayer</a></h4>
+<p><img class="aligncenter size-full wp-image-12161" title="3 the code player" src="http://www.prestashop.com/blog/es/files/2014/11/3-the-code-player.png" alt="The code player" width="575" height="281" /></p>
+<p><a href="http://thecodeplayer.com/" target="_blank">TheCodePlayer</a> ofrece videotutoriales con ejemplos reales. ¡HTML5, CSS3 y Javascript son solo el principio! Cada tutorial incluye un vídeo, un visor de códigos y cursos relacionados.</p>
+<h4>4. <a href="http://www.w3schools.com/ " target="_blank">W3Schools.com</a></h4>
+<p><img class="aligncenter size-full wp-image-12162" title="4 w3schools" src="http://www.prestashop.com/blog/es/files/2014/11/4-w3schools.png" alt="w3schools" width="575" height="276" /></p>
+<p>A <a href="http://www.w3schools.com/" target="_blank">W3schools.com</a> llegan usuarios de todo el mundo que quieren aprender a programar gratis. Descubrirás los secretos de lenguajes como HTML, CSS, Javascript, SQL, PHP, jQuery, Angular, Bootstrap o XML. Los tutoriales incluyen ejemplos y editores en línea para que puedas modificar el código y ver los resultados inmediatamente.</p>
+<h4>5. <a href="https://developer.mozilla.org/es/" target="_blank">Mozilla Developer Network</a></h4>
+<p><img class="aligncenter size-full wp-image-12163" title="5 mozilla developer network" src="http://www.prestashop.com/blog/es/files/2014/11/5-mozilla-developer-network.png" alt="mozilla developer network" width="575" height="256" /></p>
+<p>En <a href="https://developer.mozilla.org/es/" target="_blank">Mozilla Developer Network</a> encontrarás información muy útil sobre la web abierta. Apréndelo todo sobre estándares web como CSS, HTML o JavaScript en una plataforma que siempre está actualizada.</p>
+<h4>6. <a href="https://www.coursera.org/" target="_blank">Coursera</a></h4>
+<p><img class="aligncenter size-full wp-image-12164" title="6  coursera" src="http://www.prestashop.com/blog/es/files/2014/11/6-coursera.png" alt="coursera" width="575" height="330" /></p>
+<p>Similar to Udemy, <a href="https://www.coursera.org/" target="_blank">Coursera</a> es una plataforma similar a Udemy. Oferta cursos sobre todo tipo de temas, entre ellos algunos que te ayudarán a programar. Tiene cursos en inglés, chino, portugués, ucraniano, español, ruso y otros idiomas. Puedes quedarte solo en lo básico o especializarte en un lenguaje de programación concreto.</p>
+<h4>7. <a href="http://teamtreehouse.com/ " target="_blank">Treehouse</a></h4>
+<p><img class="aligncenter size-full wp-image-12165" title="7 treehouse" src="http://www.prestashop.com/blog/es/files/2014/11/7-treehouse.png" alt="Treehouse" width="575" height="256" /></p>
+<p>En <a href="http://teamtreehouse.com/ " target="_blank">Treehouse</a> tienes dos semanas gratuitas de prueba para empezar. Solo necesitarás tu ordenador o móvil para saber más sobre HTML y CSS. Después de ver los vídeos podrás poner a prueba tus conocimientos con los tests y los desafíos de código. Aprende conceptos empresariales y trabaja para lograr un objetivo concreto.</p>
+<p>&#8211;</p>
+<p>¿Aún quieres más? Haz una búsqueda rápida en Google y seguro que encuentras montones de cursos en tu zona. ¿Ya has usado alguno de estos recursos? ¡Cuéntanos qué te parecieron!</p>
+<p>Pon tus habilidades de programación a trabajar y <a href="http://www.prestashop.com/es/descarga" target="_blank">descarga PrestaShop</a>, la solución para e-commerce de código abierto más importante del mundo. ¡Crea tu tienda online gratis!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/siete-formas-gratuitas-de-aprender-a-programar-como-un-profesional/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Diez nuevos temas de comercio electrónico para PrestaShop</title>
+		<link>http://www.prestashop.com/blog/es/diez-nuevos-temas-de-comercio-electronico-para-prestashop/</link>
+		<comments>http://www.prestashop.com/blog/es/diez-nuevos-temas-de-comercio-electronico-para-prestashop/#comments</comments>
+		<pubDate>Mon, 10 Nov 2014 14:15:55 +0000</pubDate>
+		<dc:creator>Natalie Beigel</dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=12125</guid>
+		<description><![CDATA[¿De qué depende la primera impresión de un cliente que acaba de descubrir tu tienda online? De su diseño. Tu sitio web debe tener un aspecto profesional desde su lanzamiento. Sin olvidar ningún detalle. ¿No eres diseñador? No te preocupes, &#8230; <a href="http://www.prestashop.com/blog/es/diez-nuevos-temas-de-comercio-electronico-para-prestashop/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>¿De qué depende la primera impresión de un cliente que acaba de descubrir tu tienda online? De su diseño. Tu sitio web debe tener un aspecto profesional desde su lanzamiento. Sin olvidar ningún detalle.</p>
+<div>
+<p>¿No eres diseñador? No te preocupes, aquí tienes diez nuevos temas de e-commerce para tiendas PrestaShop. Todas las plantillas se pueden adaptar, personalizar y traducir y son compatibles con la versión 1.6.</p>
+<p><img class="aligncenter size-large wp-image-12138" title="Header Image" src="http://www.prestashop.com/blog/es/files/2014/11/Header-Image-1024x537.png" alt="Header" width="584" height="306" /></p>
+<p><span id="more-12125"></span></p>
+</div>
+<h2><span style="color: #d64541;">1. Gadget Shop</span></h2>
+<p><img class="aligncenter size-full wp-image-12140" title="1. Gadget Shop" src="http://www.prestashop.com/blog/es/files/2014/11/1.-Gadget-Shop.png" alt="Gadget Shop" width="575" height="373" /></p>
+<p><a href="http://addons.prestashop.com/es/high-tech/11449-new-gadgets-shop-responsive-html5-theme-16.html" target="_blank">Gadget Shop</a> ofrece un diseño estilizado y gran facilidad de uso. El tema incluye módulos avanzados: imágenes con estilo y personalizables para las categorías, carrusel gráfico en la página de inicio, efectos de resalte, múltiples filtros de producto, artículos destacados en el pie y mucho más.</p>
+<h2><span style="color: #d64541;">2. Leo Fashion Store</span></h2>
+<p><img class="aligncenter size-full wp-image-12141" title="2. Leo" src="http://www.prestashop.com/blog/es/files/2014/11/2.-Leo.png" alt="Leo" width="575" height="651" /></p>
+<p><a href="http://addons.prestashop.com/es/fashion/11447-leo-fashion-store-prestashop.html" target="_blank">Leo Fashion Store</a> tiene un potentísimo framework compatible con varias opciones de diseño y versiones en tonos claros y oscuros. Su objetivo primordial es facilitar la experiencia al usuario. Y además cuenta con numerosos extras: carrusel para productos destacados, efectos de zoom y resalte y transiciones animadas.</p>
+<h2><span style="color: #d64541;">3. Cultura</span></h2>
+<p><img class="aligncenter size-full wp-image-12142" title="3. Cultura" src="http://www.prestashop.com/blog/es/files/2014/11/3.-Cultura.png" alt="Cultura" width="575" height="357" /></p>
+<p><a href="http://addons.prestashop.com/es/interior-furniture/14227-cultura-responsive-16.html" target="_blank">Cultura</a> encierra todo un conjunto de funcionalidades avanzadas con un diseño minimalista y un toque moderno. Gracias a su navegación intuitiva, la limpieza de sus páginas de productos y su estilo flexible, es perfecto para cualquier sector.</p>
+<h2><span style="color: #d64541;">4. Extreme Sports</span></h2>
+<p><img class="aligncenter size-full wp-image-12143" title="4. Extreme Sports" src="http://www.prestashop.com/blog/es/files/2014/11/4.-Extreme-Sports.png" alt="Extreme Sports" width="575" height="391" /></p>
+<p><a href="http://addons.prestashop.com/es/sport/17391-extreme-sports-clothing-gear.html" target="_blank">Extreme Sports</a> es la plantilla ideal para vender artículos deportivos. Sus elementos rojos atraen la atención hacia el contenido más importante. También tiene bloques personalizables, navegación avanzada y una barra lateral para los top ventas. La mejor apuesta para una tienda de deportes extremos.</p>
+<h2><span style="color: #d64541;">5. Travely</span></h2>
+<p><img class="aligncenter size-full wp-image-12144" title="5. Travely" src="http://www.prestashop.com/blog/es/files/2014/11/5.-Travely1.png" alt="Travely" width="575" height="420" /></p>
+<p><a href="http://addons.prestashop.com/es/travel/17643-travely-theme-shop-of-travel.html" target="_blank">Travely</a> reúne todas las funcionalidades básicas de un sitio web de comercio electrónico. Un tema sensacional centrado en los detalles, desde el mega menú fijo al enlace a Google Maps. También incluye un servicio gratuito de instalación para el desarrollador.</p>
+<h2><span style="color: #d64541;">6. Shopster</span></h2>
+<p><img class="aligncenter size-full wp-image-12145" title="6. Shopster" src="http://www.prestashop.com/blog/es/files/2014/11/6.-Shopster.png" alt="Shopster" width="575" height="509" /></p>
+<p><a href="http://addons.prestashop.com/es/high-tech/17699-shopster-content-first-responsive-prestashop-16.html" target="_blank">Shopster</a>: modernidad, sencillez y navegación intuitiva. Un tema disponible en dos versiones, de tres y cuatro columnas, para colocar los artículos a tu antojo. Y es perfecto para cualquier negocio porque lo tiene todo: barra de desplazamiento fija en la cabecera, carrusel de banners y efectos de resalte para artículos.</p>
+<h2><span style="color: #d64541;">7. Oslo</span></h2>
+<p><img class="aligncenter size-full wp-image-12146" title="7. Oslo" src="http://www.prestashop.com/blog/es/files/2014/11/7.-Oslo1.png" alt="Oslo" width="575" height="414" /></p>
+<p><a href="http://addons.prestashop.com/es/fashion/16958-01-oslo.html" target="_blank">Oslo</a> es ideal para tiendas de moda. Líneas puras, colores sobrios y un diseño minimalista que enfatizan su sencillez. Tiene etiquetas enriquecidas en las páginas de producto para mejorar el posicionamiento en buscadores y se carga muy rápido. Además, podrás usarlo con cualquier idioma instalado en tu tienda.</p>
+<h2><span style="color: #d64541;">8. Selling Furniture</span></h2>
+<p><img class="aligncenter size-full wp-image-12147" title="8. Furniture Store" src="http://www.prestashop.com/blog/es/files/2014/11/8.-Furniture-Store1.png" alt="Furniture Store" width="575" height="500" /></p>
+<p>Selling Furniture consigue que comprar sea una experiencia inolvidable. Un diseño bien estructurado, categorías claras y cuadros promocionales elegantes: los clientes encontrarán lo que buscan sin problemas.</p>
+<h2><span style="color: #d64541;">9. Supermarket</span></h2>
+<p><img class="aligncenter size-full wp-image-12148" title="9. Supermarket" src="http://www.prestashop.com/blog/es/files/2014/11/9.-Supermarket1.png" alt="Supermarket" width="535" height="459" /></p>
+<p><a href="http://addons.prestashop.com/es/food-drinks/17741-supermarket-template.html" target="_blank">Supermarket</a> es una plantilla magnífica para vender productos culinarios. Los tonos verdes y las sugerentes imágenes de gran tamaño le aportan el enfoque natural, fresco y saludable. La barra lateral vertical y las categorías en banners facilitan la búsqueda y animan a comprar.</p>
+<h2><span style="color: #d64541;">10. Elation Advance Touch</span></h2>
+<p><img class="aligncenter size-full wp-image-12149" title="10. Elation" src="http://www.prestashop.com/blog/es/files/2014/11/10.-Elation1.png" alt="Elation" width="575" height="348" /></p>
+<p><a href="http://addons.prestashop.com/es/neutral/16704-elation-advance-touch-theme.html" target="_blank">Elation Advance Touch</a> brinda un control creativo total: colores, diseños y fuentes sin límite. Una plantilla muy bonita con barras de desplazamiento, banners e imágenes parallax con efecto de profundidad. También incluye funcionalidades SEO avanzadas para ayudarte a aparecer en los primeros resultados de búsqueda. Y la guinda del pastel: su desarrollador ha creado un videotutorial de alta definición en el que te explica cómo instalarlo y personalizarlo.</p>
+<p>&#8211;</p>
+<h4><span style="color: #d64541;">¿Quieres ver más?</span></h4>
+<p>En <a href="http://addons.prestashop.com/" target="_blank">PrestaShop Addons</a> encontrarás más de 1.500 temas para personalizar tu tienda PrestaShop. Búscalos por categoría, compatibilidad, colores o columnas. ¡Es sencillísimo!</p>
+<p>¿Ya usas alguna de estas plantillas? ¿Qué te parecen? Comparte tu opinión con el resto de la comunidad.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/diez-nuevos-temas-de-comercio-electronico-para-prestashop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Tres sencillas técnicas de growth hacking para la captación de clientes de comercio electrónico</title>
+		<link>http://www.prestashop.com/blog/es/tres-sencillas-tecnicas-de-growth-hacking-para-la-captacion-de-clientes-de-comercio-electronico/</link>
+		<comments>http://www.prestashop.com/blog/es/tres-sencillas-tecnicas-de-growth-hacking-para-la-captacion-de-clientes-de-comercio-electronico/#comments</comments>
+		<pubDate>Wed, 05 Nov 2014 14:04:26 +0000</pubDate>
+		<dc:creator>Natalie Beigel</dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=12076</guid>
+		<description><![CDATA[Tienes una tienda online con unos productos geniales, ¿y ahora qué? El éxito de tu negocio depende de conseguir clientes. Pero, ¿cómo atraer a estos clientes sin flujo de efectivos y sin reconocimiento de marca? Con una buena estrategia de &#8230; <a href="http://www.prestashop.com/blog/es/tres-sencillas-tecnicas-de-growth-hacking-para-la-captacion-de-clientes-de-comercio-electronico/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Tienes una tienda online con unos productos geniales, ¿y ahora qué? El éxito de tu negocio depende de conseguir clientes. Pero, ¿cómo atraer a estos clientes sin flujo de efectivos y sin reconocimiento de marca? Con una buena estrategia de posicionamiento para nuevas empresas.</p>
+<p>Estas tácticas –englobadas en el término inglés &#8220;growth hacking–son una alternativa barata e innovadora al marketing tradicional. Y son la forma de crear conciencia de marca y reducir los gastos de captación de clientes a coste 0</p>
+<p><img class="aligncenter size-large wp-image-12118" title="main" src="http://www.prestashop.com/blog/es/files/2014/10/main-1024x537.png" alt="" width="584" height="306" /></p>
+<p><span id="more-12076"></span></p>
+<h4><span style="color: #65c6bb;">Introducción</span></h4>
+<p>Este tipo de posicionamiento es sin duda el motor que ha impulsado el éxito de muchas startups. Compañías como Air B&amp;B, YouTube, Dropbox o Groupon fueron pioneras en el uso del <a href="https://www.ventureharbour.com/ultimate-startup-marketing-strategy/" target="_blank">growth hacking</a>. Está claro: funciona.</p>
+<p>Entonces, ¿cómo puedes hacerlo tú también? Veamos tres sencillas técnicas de posicionamiento que usan los nuevos sitios de comercio electrónico para aumentar sus clientes. Redes sociales, buscadores, contenido de calidad y marketing viral: esas serán tus bazas para aprovechar al máximo tus esfuerzos de marketing.</p>
+<h2><span style="color: #2574a9;">Recomendaciones de cliente a cliente</span></h2>
+<h4><span style="color: #65c6bb;">“¡Recomiéndanos a un amigo y gana 25€ para tu próxima compra!”</span></h4>
+<p><img class="aligncenter size-full wp-image-12085" title="Customer Refer Customer" src="http://www.prestashop.com/blog/es/files/2014/10/Customer-Refer-Customer1.png" alt="" width="575" height="319" /></p>
+<p><span style="color: #2574a9;"><strong>Por qué funciona:</strong></span> Los programas de recomendaciones crean un vínculo recíproco entre tienda y cliente. Suelen requerir que el recomendado haga una compra o se suscriba, así que el cliente se siente obligado a dirigirse a la persona adecuada para obtener su recompensa.</p>
+<p><span style="color: #2574a9;"><strong>Qué debes probar:</strong></span> Prueba distintos incentivos y ofréceselos a clientes con diferente antigüedad para averiguar qué funciona mejor. Aquí tienes algunos ejemplos:</p>
+<p style="padding-left: 30px;">• “Trae a tres amigos y te hacemos un regalo”<br />
+• “Invita a cinco amigos y disfruta de tres meses de envío gratuito”<br />
+• “¿Quieres 300 puntos en tu tarjeta de cliente? ¡Invita a tus amigos a conocernos!”<br />
+• “Recomiéndanos a un amigo y consigue un mes de suscripción gratuita”</p>
+<p style="padding-left: 30px;">&#8211;</p>
+<h2><span style="color: #2574a9;">Conecta con los líderes de opinión</span></h2>
+<h4><span style="color: #65c6bb;"> Relaciónate online con las personas con más influencia en tu nicho de negocio</span></h4>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-12086" title="Influencer Image" src="http://www.prestashop.com/blog/es/files/2014/10/Influencer-Image.png" alt="" width="575" height="400" /></p>
+<p><strong><span style="color: #2574a9;">Por qué funciona:</span></strong> Blogueros, periodistas y expertos en tu ámbito pueden darte cobertura y presentar tu negocio online a toda su audiencia. Si escoges a los <a href="http://www.socialmediaelearning.co.uk/social-media-influencers-find-engage-grow-your-business/" target="_blank">líderes de opinión adecuados</a>, abrirás las puertas de tu tienda a infinitos clientes potenciales. Y de paso conseguirás backlinks para tu sitio web y mejorarás tu SEO.</p>
+<p><strong><span style="color: #2574a9;">Por dónde empezar:</span></strong> Desde abajo. No vas a llegar a las personas más influyentes de la noche a la mañana. No apuntes a blogueros famosos, sino a otros menos conocidos pero con una presencia sólida en las redes sociales y ve ascendiendo.</p>
+<p>&#8211;</p>
+<h2><span style="color: #2574a9;">Prospección en redes sociales</span></h2>
+<h4><span style="color: #65c6bb;"> Crea vínculos con clientes potenciales mediante técnicas de marketing digital de guerrilla</span></h4>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-12087" title="ES_Social Prospecting1" src="http://www.prestashop.com/blog/es/files/2014/10/ES_Social-Prospecting11.png" alt="" width="350" height="160" /></p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-12088" title="ES_Social Prospecting 2" src="http://www.prestashop.com/blog/es/files/2014/10/ES_Social-Prospecting-2.png" alt="" width="350" height="199" /></p>
+<p><strong><span style="color: #2574a9;">Por qué funciona:</span></strong> Estás poniéndote en contacto con usuarios que hablan sobre tu sector, producto o nicho de mercado. ¡Y eso significa que les interesa! Si les das una respuesta personalizada y útil, estás presentándoles tu tienda como un recurso valioso.</p>
+<p><strong><span style="color: #2574a9;">Cómo hacerlo:</span></strong> Busca todos los días los #hashtags y conversaciones de Twitter relacionados con tu sector. Responde a las personas que están usando ese hashtag y ofréceles consejos prácticos. Añade un enlace a tu sitio o a un blog que trate sobre el tema. Debes centrarte en ayudar y no en vender.. ¡No quieres que tus clientes potenciales crean que les estás enviando spam! Si quieres más detalles, consulta la guía sobre <a href="http://offers.hubspot.com/social-prospecting-workbook" target="_blank">prospección en redes sociales</a> de Hubspot.</p>
+<p>&#8211;<br />
+La captación de clientes consiste en encontrar lo que mejor funciona para tu público objetivo. Es también un área de tu negocio en el que no debes dejar nunca de probar nuevas estrategias. ¡Tu próximo intento podría ser el que convierta tu negocio en un éxito sin precedentes!</p>
+<p>¿Has usado ya alguna técnica de posicionamiento para nuevas empresas para captar clientes? ¡Cuéntanos tu experiencia! El apartado de comentarios está a tu disposición.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/tres-sencillas-tecnicas-de-growth-hacking-para-la-captacion-de-clientes-de-comercio-electronico/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>15 ejemplos de botones que convierten visitas en ventas</title>
+		<link>http://www.prestashop.com/blog/es/15-ejemplos-de-botones-que-convierten-visitas-en-ventas/</link>
+		<comments>http://www.prestashop.com/blog/es/15-ejemplos-de-botones-que-convierten-visitas-en-ventas/#comments</comments>
+		<pubDate>Mon, 03 Nov 2014 16:24:38 +0000</pubDate>
+		<dc:creator>Julie Liu</dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=12091</guid>
+		<description><![CDATA[Este año ya te hemos hablado de la importancia de los botones de acción (CTA) y de su ubicación, forma, tamaño, color y texto. ¿Quieres saber qué es lo que mejor funciona? Hoy vamos a ver quince ejemplos de botones &#8230; <a href="http://www.prestashop.com/blog/es/15-ejemplos-de-botones-que-convierten-visitas-en-ventas/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Este año ya te hemos hablado de <a href="http://www.prestashop.com/blog/es/la-importancia-de-los-botones-de-llamada-a-la-accion-en-su-tienda-online/" target="_blank">la importancia de los botones de acción (CTA)</a> y de su ubicación, forma, tamaño, color y texto. ¿Quieres saber qué es lo que mejor funciona? Hoy vamos a ver quince ejemplos de botones que animan a comprar en tiendas online.</p>
+<p><img class="aligncenter size-large wp-image-12092" title="CTA" src="http://www.prestashop.com/blog/es/files/2014/10/CTA-1024x537.jpg" alt="" width="584" height="306" /></p>
+<p>Vamos a usar ejemplos de tiendas PrestaShop para enseñarte CTA que funcionan. ¿Cómo? Usando pop-ups, confianza social, buenas páginas de inicio y, lo más importante, buenas páginas de producto. ¡Empecemos!</p>
+<p><span id="more-12091"></span></p>
+<h2><span style="color: #009bdf;">Botones CTA en ventanas emergentes</span></h2>
+<p><a href="http://www.prestashop.com/blog/es/pop-ups-en-tu-sitio-web-ejemplos-y-metodo-para-2015/" target="_blank">Los pop-ups de tiendas online</a> pueden ser muy eficaces para atraer la atención del comprador. Esa ventana que aparece sobre otra aumenta la tasa de conversión. Descubre cómo usan estas tiendas los pop-ups:</p>
+<p><img class="aligncenter size-full wp-image-12106" title="01 whatgoesaroundnyc" src="http://www.prestashop.com/blog/es/files/2014/10/01-whatgoesaroundnyc.png" alt="" width="500" height="374" /></p>
+<p><a href="http://www.whatgoesaroundnyc.com/ " target="_blank">What Goes Around NYC</a> anima a sus clientes a unirse a su comunidad mediante pop-ups bien sincronizados. No aparecen automáticamente, sino cuando el cliente demuestra interés y hace clic en un producto.</p>
+<p><img class="aligncenter size-full wp-image-12107" title="02 teaguys" src="http://www.prestashop.com/blog/es/files/2014/10/02-teaguys.png" alt="" width="500" height="324" /></p>
+<p><a href="http://www.teaguys.com/ " target="_blank">Tea Guys</a> usa una estrategia diferente: la ventana emergente se abre si pinchas en la pestaña de opiniones. Entonces Tea Guys te anima a comentar con un botón CTA bien visible en la parte superior que dice &#8220;Déjanos tu opinión&#8221;.</p>
+<h2><span style="color: #009bdf;">Botones de acción que aprovechan la confianza social</span></h2>
+<p>Las tiendas PrestaShop aprovechan la confianza social para convertir visitantes en seguidores. Este concepto se basa en la idea de que si a mucha gente le gusta una empresa, debe de ser fiable. Descubre qué hacen estos vendedores para conseguir nuevos seguidores&#8230; gracias a sus seguidores.</p>
+<p><img class="aligncenter size-full wp-image-12093" title="03 headict.co.uk" src="http://www.prestashop.com/blog/es/files/2014/10/03-headict.co_.uk_.png" alt="" width="500" height="275" /></p>
+<p><a href="http://www.headict.co.uk/ " target="_blank">Headict</a> muestra iconos de sus redes sociales con un contador que indica su número de seguidores. Son más de 8.000 distribuidos en tres plataformas, así que es fácil dejarse llevar y subirse al tren.</p>
+<p><img class="aligncenter size-full wp-image-12094" title="04 29nUnder" src="http://www.prestashop.com/blog/es/files/2014/10/04-29nUnder.png" alt="" width="500" height="224" /></p>
+<p><a href="http://29nunder.com/ " target="_blank">29NUnder</a> no solo genera confianza con sus más de 112.000 seguidores en Facebook: hace todo lo posible para que TÚ seas el próximo. Solo tienes que hacer clic en &#8220;Me gusta&#8221;. Sin ventanas ni inicios de sesión.</p>
+<h2><span style="color: #009bdf;">Sugerentes botones de acción en las páginas de inicio</span></h2>
+<p>Tu página de inicio debe atraer la atención y despertar la curiosidad. Estas tiendas animan a sus visitantes a conocer sus productos mediante imágenes fantásticas con poco texto.</p>
+<p><img class="aligncenter size-full wp-image-12095" title="05 adelineaffre" src="http://www.prestashop.com/blog/es/files/2014/10/05-adelineaffre.png" alt="" width="500" height="329" /></p>
+<p><a href="http://adelineaffre.com/en/ " target="_blank">Adelineaffre</a> presenta sus productos en acción&#8230; o, mejor dicho, en su entorno. El cliente descubre cómo usar los artículos en su día a día y eso le anima a buscar más información.</p>
+<p><img class="aligncenter size-full wp-image-12096" title="06 lindenleaves" src="http://www.prestashop.com/blog/es/files/2014/10/06-lindenleaves.png" alt="" width="500" height="263" /></p>
+<p><a href="http://lindenleaves.com/ " target="_blank">Linden Leaves</a> presenta su línea de tratamientos naturales en la página de inicio. Atrae la atención hacia la modelo y la conduce en la dirección de su mirada: hacia los productos.</p>
+<h2><span style="color: #009bdf;">Botones de acción eficaces en las páginas de producto</span></h2>
+<p>Los CTA son importantes en toda la tienda, pero en ningún sitio tanto como en las <a href="http://www.prestashop.com/blog/es/cinco-ejemplos-de-paginas-de-productos-que-venden-de-verdad/" target="_blank">páginas de producto.</a> Esta llamada a la acción es fundamental ya que es el primer paso del cliente para comprar.  ¿Cómo funcionan? Aquí tienes varios CTA estupendos en páginas de producto, con un análisis detallado de su texto, su decoración, la ubicación y el diseño de la página.</p>
+<h4><span style="color: #000000;"><strong>Un texto magnífico</strong></span></h4>
+<p><img class="aligncenter size-full wp-image-12097" title="07 bettereverafter" src="http://www.prestashop.com/blog/es/files/2014/10/07-bettereverafter.png" alt="" width="500" height="277" /></p>
+<p>La página de producto de <a href="http://www.bettereverafter.com/112-adventure-in-the-city.html " target="_blank">BetterEverAfter</a> se dirige a novios que están haciendo su lista de bodas. Y lo dejan bien claro: han sustituido el botón &#8220;Añadir a la lista de deseos&#8221; por uno en el que pone &#8220;Añadir a la lista de bodas&#8221;.</p>
+<p><img class="aligncenter size-full wp-image-12098" title="08 funkylama" src="http://www.prestashop.com/blog/es/files/2014/10/08-funkylama.png" alt="" width="500" height="301" /></p>
+<p><a href="http://www.funky-lama.com/en/2247-little-handpuppet-crocodile.html " target="_blank">Funky Lama</a> crea la necesidad de comprar cuanto antes al añadir al lado del botón CTA este mensaje: &#8220;Solo queda uno&#8221;. ¿Otras alternativas para que el cliente no se lo piense más? Prueba con &#8220;por tiempo limitado&#8221;, &#8220;hoy&#8221; o &#8220;ahora.</p>
+<h4><span style="color: #000000;"><strong>Bordes para destacar</strong></span></h4>
+<p><img class="aligncenter size-full wp-image-12099" title="09 lafolleadresse" src="http://www.prestashop.com/blog/es/files/2014/10/09-lafolleadresse.png" alt="" width="500" height="340" /></p>
+<p><a href="http://www.lafolleadresse.com/331-carte-postale-darling-clementine-ooh-la-la-.html " target="_blank">La folle adresse</a> decora sus botones de acción con un divertido icono y un borde de puntos. La decoración es coherente con la imagen del producto así que no distrae, pero destaca lo suficiente como para llamar la atención.</p>
+<p><img class="aligncenter size-full wp-image-12100" title="10 myindiesoul" src="http://www.prestashop.com/blog/es/files/2014/10/10-myindiesoul.png" alt="" width="500" height="316" /></p>
+<p><a href="https://www.myindiesoul.com/boho-bags/356-dunes.html " target="_blank">Indie Soul</a> también realza sus botones de acción con un borde. Uno oscuro y sencillo que combina a la perfección con su estilo.</p>
+<h4><span style="color: #000000;"><strong>Ubicación, ubicación, ubicación</strong></span></h4>
+<p><img class="aligncenter size-full wp-image-12101" title="11 moncolonel.fr" src="http://www.prestashop.com/blog/es/files/2014/10/11-moncolonel.fr_.png" alt="" width="500" height="368" /></p>
+<p><a href="http://www.moncolonel.fr/en/table-ware/254-bunol-collection-.html?search_query=bunol&amp;results=1 " target="_blank">Mon Colonel</a> coloca sus botones de acción sobre la ficha de producto para que los clientes los vean a la primera. Algo muy importante cuando son artículos con descripciones largas. Y como extra, los destacan con el color de realce de su sitio web.</p>
+<p><img class="aligncenter size-full wp-image-12102" title="12 eatingtools" src="http://www.prestashop.com/blog/es/files/2014/10/12-eatingtools.png" alt="" width="500" height="375" /></p>
+<p>Los botones de <a href="https://www.eatingtools.com/one-of-a-kind/48-the-osage-scoop.html" target="_blank">Eating Tools</a> están bajo la descripción del producto. Pero no hay problema: las descripciones son tan cortas que no hace falta usar el cursor para llegar al botón. Además, su tamaño y su fuerza hacen que nadie pueda pasarlos por alto.</p>
+<h4><span style="color: #000000;"><strong>Diseño global de la página</strong></span></h4>
+<p><img class="aligncenter size-full wp-image-12103" title="13 bobbies.fr" src="http://www.prestashop.com/blog/es/files/2014/10/13-bobbies.fr_.png" alt="" width="500" height="321" /></p>
+<p>Las páginas de producto de <a href="http://www.bobbies.fr/en/boots-femme-la-muse/2141204607-boots-fauve-la-muse.html " target="_blank">Bobbies</a> se inspiran en una revista. El color que usan para destacar elementos es el mismo que el de los botones de acción. Y para que se vean aún mejor, difuminan los logos de las opciones de pago. Su mayor acierto es que los botones de acción atraen la atención pero combinan a las mil maravillas con el diseño general de la página.</p>
+<p><img class="aligncenter size-full wp-image-12104" title="14 creedboutique" src="http://www.prestashop.com/blog/es/files/2014/10/14-creedboutique.png" alt="" width="500" height="340" /></p>
+<p><a href="https://www.creedboutique.com/creed-perfume-for-men/116-creed-aventus-871854009347.html " target="_blank">Creed Boutique</a> también integra a la perfección sus botones con la imagen de su página. Lo logran sin usar otros tonos: simplemente invierten los colores de los botones de acción. El contraste ayuda a los clientes a encontrar fácilmente el botón que les invita a comprar.</p>
+<p><img class="aligncenter size-full wp-image-12105" title="15 addons" src="http://www.prestashop.com/blog/es/files/2014/10/15-addons.png" alt="" width="500" height="309" /></p>
+<p>Y no podíamos olvidarnos de la tienda online de los módulos y temas oficiales de PrestaShop: <a href="http://addons.prestashop.com/es/aplicaciones-front-office-prestashop-modulos/2191-box-notification-popup.html" target="_blank">PrestaShop Addons</a>. Nuestro botón para añadir al carro de la compra está por encima del pliegue de la página, muy accesible. Y está lejos de otros gráficos para asegurarnos de que no resta protagonismo a las imágenes del producto.</p>
+<hr align="left" size="2" width="20%" />
+<p>¿Alguno de estos ejemplos te ha inspirado? ¿Cuáles te han gustado más? ¿Añadirías algún otro? Cuéntanoslo en los comentarios. ¿Aún no vendes online? ¡<a href="http://www.prestashop.com/es/download " target="_blank">Descarga PrestaShop</a> y empieza a vender tus productos en Internet!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/15-ejemplos-de-botones-que-convierten-visitas-en-ventas/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Cómo aprovechar eBay para las ventas internacionales</title>
+		<link>http://www.prestashop.com/blog/es/como-aprovechar-ebay-para-las-ventas-internacionales/</link>
+		<comments>http://www.prestashop.com/blog/es/como-aprovechar-ebay-para-las-ventas-internacionales/#comments</comments>
+		<pubDate>Mon, 27 Oct 2014 13:18:58 +0000</pubDate>
+		<dc:creator>Julie Liu</dc:creator>
+				<category><![CDATA[Asociados PrestaShop]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=12070</guid>
+		<description><![CDATA[Si quieres tener más éxito como vendedor, nada como salir al mercado internacional. Los consumidores cada vez están más conectados y quieren poder comprar en todo momento en cualquier sitio. Por eso las transacciones internacionales (CBT) se han convertido en &#8230; <a href="http://www.prestashop.com/blog/es/como-aprovechar-ebay-para-las-ventas-internacionales/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Si quieres tener más éxito como vendedor, nada como salir al mercado internacional. Los consumidores cada vez están más conectados y quieren poder <strong>comprar en todo momento en cualquier sitio.</strong> Por eso las transacciones internacionales (CBT) se han convertido en una magnífica oportunidad de crecimiento.</p>
+<p>¿Sabías que el comercio online entre los seis mayores mercados del mundo mueve más de <strong>1 000 millones de libras al año?</strong> Y se prevé que esta cifra se triplique en 2018. Pero antes de lanzarte a localizar tu sitio web para distintos idiomas y países, debes probar los mercados internacionales.</p>
+<p><img class="aligncenter size-large wp-image-12071" title="Web" src="http://www.prestashop.com/blog/es/files/2014/10/ebayblog-1024x537.jpg" alt="" width="584" height="306" /></p>
+<p><span id="more-12070"></span></p>
+<p>Eso de probar el mercado internacional suena caro, ¿verdad? Pues en realidad no lo es. No solo es asequible, sino que puedes ganar dinero mientras descubres cómo está en otros países la demanda de los productos que vendes.</p>
+<h2><span style="color: #e33238;">Comercio internacional a través de los mercados de venta online</span></h2>
+<p>¡Aprovecha estos puntos de venta y amplía tu negocio a incontables países! Los mercados de venta online como eBay te dan acceso a más de 149 millones de compradores activos de todo el mundo. Presenta tus productos en eBay y llegarás a ese 20% de compradores que suele recurrir a vendedores internacionales&#8230; mientras el 80% restante se pregunta por qué no lo hace aún.</p>
+<p>Vender en eBay te ayuda a labrarte un historial mientras exploras el mundo de las ventas internacionales. Después de cada compra en eBay, los usuarios pueden dejar su opinión: una puntuación y un comentario. Los vendedores pueden usar esta evaluación para mejorar aspectos como la descripción de sus productos, el servicio al cliente, las opciones de envío o el precio.</p>
+<h2><span style="color: #0065d1;">Decidir dónde vender</span></h2>
+<p>¿A qué países debes dirigirte? Depende. Como normal general, tu mercado objetivo debe tener un alto índice de compras online y pocos vendedores nacionales. Sin embargo, para determinar si tu producto es adecuado para el país seleccionado, empieza vendiendo en un mercado de venta online. Cuando lo hayas hecho sabrás en qué países debes centrarte y cómo optimizar tus procesos para ellos.</p>
+<h2><span style="color: #85b716;">Primeros pasos en los mercados de venta online</span></h2>
+<p>Existen diferentes formas de empezar: todo depende de cómo sea tu tienda y qué vendas. Si tienes un negocio pequeño con pocos artículos, empieza <strong>presentando tus productos y proponiendo envíos internacionales. </strong>Cuando los clientes busquen en el catálogo de eBay, encontrarán tus artículos.</p>
+<p>Los negocios de tamaño medio con una gama amplia de productos, pueden abrir una tienda eBay.* Además, para presentar tu catálogo a millones de compradores, puedes elaborar una central de ventas totalmente personalizada: crearás conciencia de marca, fomentarás las ventas con herramientas de marketing y presentarás tus productos durante más tiempo y a mejor precio.</p>
+<p>Para aprovechar estas ventajas sin ningún esfuerzo, importa tus productos con el <a href="http://addons.prestashop.com/es/afiliacion-prestashop-modulos/2742-ebay.html" target="_blank">módulo gratuito de eBay</a>. Lo actualizamos hace poco para ayudar a los vendedores de PrestaShop a conquistar el mercado internacional.</p>
+<p>¿Estás preparado para vender en todo el mundo? Los vendedores de Italia y España pueden aprovechar esta oferta para probar una <a href="http://portal.ebay.es/abreunatiendaebaygratuitamente" target="_blank">tienda básica gratuita durante 90 días.</a> Cuando ya tengas un historial en eBay, podrás pasarte a la opción de tienda avanzada.</p>
+<address>*Ten en cuenta que las únicas categorías de tiendas eBay con funciones de venta internacional son: Top Shop y Premium Shop (DE), Boutique A la Une y Boutique Premium (FR), Negozio Premium y Negozio Premium Plus (IT) y Tienda Avanzada y Tienda Premium (ES).</address>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/como-aprovechar-ebay-para-las-ventas-internacionales/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>¿Aún no conoces el validador automático de módulos para PrestaShop?</title>
+		<link>http://www.prestashop.com/blog/es/aun-no-conoces-el-validador-automatico-de-modulos-para-prestashop/</link>
+		<comments>http://www.prestashop.com/blog/es/aun-no-conoces-el-validador-automatico-de-modulos-para-prestashop/#comments</comments>
+		<pubDate>Thu, 23 Oct 2014 10:15:25 +0000</pubDate>
+		<dc:creator>Quentin Audrain</dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=12059</guid>
+		<description><![CDATA[Este validador se gestó un fin de semana cuando uno de nuestros desarrolladores, François Gaillard, decidió dedicarle un par de días a una herramienta que reparara los errores de desarrollo de un módulo. En noviembre de 2013 vio la luz &#8230; <a href="http://www.prestashop.com/blog/es/aun-no-conoces-el-validador-automatico-de-modulos-para-prestashop/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Este validador se gestó un fin de semana cuando uno de nuestros desarrolladores, François Gaillard, decidió dedicarle un par de días a una herramienta que reparara los errores de desarrollo de un módulo.<br />
+En noviembre de 2013 vio la luz la 1ª versión y nuestra comunidad de desarrolladores comenzó a utilizarla. Gaillard, consciente de su éxito, presentó en febrero la 2ª versión con nuevas funcionalidades y sistemas de ayuda.</p>
+<p><img class="aligncenter size-large wp-image-12060" title="validator2" src="http://www.prestashop.com/blog/es/files/2014/10/validator2-1024x537.jpg" alt="" width="584" height="306" /></p>
+<p><span id="more-12059"></span></p>
+<p style="text-align: center;">Hoy te traemos dos novedades: ¡ya puedes despedirte de la barrera de las <span style="color: #76bd43; font-weight: bold;">30 000 validaciones</span> y <span style="color: #76bd43; font-weight: bold;">seguir la evolución de tu módulo</span> con una curva de progresión!</p>
+<p style="margin-left: 30px;"><span style="color: #ed2279; font-weight: bold;">- Errores y avisos:</span> Si el validador detecta anomalías durante la validación, te presenta un informe de errores y avisos para que puedas corregirlos rápidamente.<br />
+<span style="color: #ed2279; font-weight: bold;">- Validación a través del repositorio GitHub:</span> Puedes validar tu módulo directamente en GitHub en repositorios públicos o privados.<br />
+<span style="color: #ed2279; font-weight: bold;">- Generador de módulo:</span> ¡No empieces de cero! Introduce unos cuantos datos sobre tu futuro módulo y descarga un .zip adaptado que cumple las normas PrestaShop. Así de fácil.<br />
+<span style="color: #ed2279; font-weight: bold;">- Búsqueda de clases, métodos y funciones:</span> ¿Quieres saber en qué versiones se usa una clase determinada y en qué archivo está? ¡Usa el buscador diseñado para esta tarea!</p>
+<p><img class="aligncenter size-large wp-image-12061" title="insight" src="http://www.prestashop.com/blog/es/files/2014/10/insight-1024x537.jpg" alt="" width="584" height="306" /></p>
+<p>La finalidad <a href="https://validator.prestashop.com/" target="_blank">del validador</a> es ayudarte a lograr módulos de excelente calidad para los vendedores que van a usarlos. Y además aumenta la compatibilidad durante migraciones, reduce las peticiones de asistencia y simplifica las actualizaciones.</p>
+<p>Es tan sencillo como cargar un módulo y esperar unos segundos a que la herramienta haga su trabajo. Ahorrarás un montón de tiempo. ¡Aprovéchalo!</p>
+<p>Y, sobre todo, no dudes en escribir <a href="mailto:validator@prestashop.com" target="_blank">un correo</a> a François si tienes alguna propuesta de mejora. ¡También puedes encontrarlo en <a href="https://github.com/gaillafr" target="_blank">GitHub</a> y en <a href="https://twitter.com/gaillafr" target="_blank">Twitter</a>!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/aun-no-conoces-el-validador-automatico-de-modulos-para-prestashop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Pop-ups en tu sitio web: ejemplos y método para 2015</title>
+		<link>http://www.prestashop.com/blog/es/pop-ups-en-tu-sitio-web-ejemplos-y-metodo-para-2015/</link>
+		<comments>http://www.prestashop.com/blog/es/pop-ups-en-tu-sitio-web-ejemplos-y-metodo-para-2015/#comments</comments>
+		<pubDate>Wed, 22 Oct 2014 09:36:57 +0000</pubDate>
+		<dc:creator>Camille Sila</dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=12025</guid>
+		<description><![CDATA[Ha llegado el momento de hablar sobre un tema polémico: los pop-ups. Los pop-ups tienen una mala reputación y mucha gente los considera molestos e invasivos. Sin embargo, actualmente observamos un aumento de este tipo de tácticas en sitios web &#8230; <a href="http://www.prestashop.com/blog/es/pop-ups-en-tu-sitio-web-ejemplos-y-metodo-para-2015/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Ha llegado el momento de hablar sobre un tema polémico: los pop-ups. Los pop-ups tienen una mala reputación y mucha gente los considera molestos e invasivos. Sin embargo, actualmente observamos un aumento de este tipo de tácticas en sitios web bastante populares.</p>
+<p>¿Funcionan los pop-ups? Hoy queremos darles una oportunidad. Vamos a evaluar su eficacia y a descubrir cómo utilizarlos de forma apropiada para evitar ser las inoportunas ventanas tan odiadas los internautas.</p>
+<p><img class="aligncenter size-large wp-image-12036" title="popup5" src="http://www.prestashop.com/blog/es/files/2014/10/popup5-1024x537.jpg" alt="" width="584" height="306" /></p>
+<p><span id="more-12025"></span></p>
+<h2><span style="color: #64a101;">¿Qué es un pop-up?</span></h2>
+<p>En realidad, existen varios tipos de pop-ups, pero el objetivo siempre es el mismo: abrir un cuadro o una ventana que sobresalga sobre el contenido de un sitio web. En otras palabras, se trata de que un contenido destaque y oculte otro contenido. Existen dos tipos principales, denominados pop-ups y pop-ins:</p>
+<p style="padding-left: 30px;">El <span style="text-decoration: underline;">pop-up</span> es una nueva ventana del navegador que se abre sobre la ventana de navegación principal sin que el visitante lo haya pedido.<br />
+El <span style="text-decoration: underline;">pop-in</span> es similar al pop-up. Permite visualizar un contenido en una página web con la diferencia de que el pop-in se abre en la misma página y no en una nueva ventana del navegador.</p>
+<p>Aunque existen varias denominaciones, el término pop-up es el que más suele emplearse y es el que vamos a utilizar en este artículo. Por tanto, dejamos claro que, cuando hablemos de pop-up, nos referiremos a pop-in, es decir, un cuadro en la misma página y no una nueva ventana.</p>
+<h4><span style="color: #0232a0;">¿Cómo se utilizan en los sitios de comercio electrónico?</span></h4>
+<p>Se utilizan por lo general para realizar sondeos, conseguir nuevas suscripciones a la newsletter, captar nuevos fans en las redes sociales, promocionar una oferta especial&#8230;</p>
+<h2 style="text-align: left;"><span style="color: #64a101;">¿Enemigo público número uno o crack de la conversión?</span></h2>
+<h4><span style="color: #0232a0;"><strong>Las ventajas de los pop-ups</strong></span></h4>
+<p>Las acciones que proponen los pop-ups muestran un índice de conversión mucho más alto que cuando se presentan en un sencillo anuncio en el sitio. No hay duda de que este formato de mensaje, que se impone ante la vista del visitante, llama su atención.</p>
+<p>Kiss metrics comparte estudios de casos interesantes sobre el impacto de los pop-ups en su artículo <a href="https://blog.kissmetrics.com/three-risky-ecommerce-techniques/" target="_blank">Tres técnicas arriesgadas de comercio electrónico que podrían aumentar su conversión.</a></p>
+<p>Este artículo nos explica en particular el caso del autor del blog ProBlogger, Darren Rowse, que aumentó las suscripciones a su newsletter en un <strong>900</strong>% gracias a este sistema, o el de una bloguera que decidió incorporar un pop-up y logró una subida de las suscripciones del<strong> 1,375%</strong>.</p>
+<p style="padding-left: 30px;"><span style="text-decoration: underline; color: #333333;"><strong>Ventajas</strong></span></p>
+<p style="padding-left: 30px;"><strong></strong>- Capta la atención de los visitantes<br />
+- Aumenta rápidamente el índice de conversión</p>
+<h4><span style="color: #0232a0;"><strong>Los pop-ups, un arma de doble filo</strong></span></h4>
+<p>Acabamos de ver que los pop-ups presentan ventajas apreciables. No obstante, hay que recalcar que los internautas suelen reaccionar cerrando automáticamente el pop-up, de ahí la importancia de pensarse bien el mensaje que se va a transmitir. Además, si quieres instalar pop-ups en un sitio web, debes ser consciente de los riesgos vinculados a un mal uso.</p>
+<p style="padding-left: 30px;"><span style="text-decoration: underline; color: #333333;"><strong>Limitaciones</strong></span></p>
+<p style="padding-left: 30px;"><strong></strong>- Carácter invasivo porque se abre automáticamente y precisa una acción por parte del internauta<br />
+- Mala reputación por los numerosos anuncios poco interesantes que utilizan este formato<br />
+- Una mala utilización puede molestar a los visitantes y perjudicar tu tienda</p>
+<h2><span style="color: #64a101;">Retrato-robot de un pop-up eficaz</span></h2>
+<p>Debido a los inconvenientes mencionados anteriormente, incluimos a continuación las buenas prácticas que se deben aplicar y los errores que es mejor evitar.</p>
+<h4><span style="text-decoration: underline; color: #0232a0;">Lo que se debe hacer</span></h4>
+<p style="padding-left: 30px;">• Utilizar un pop-up con el efecto <a href="http://digitalmarketing-glossary.com/What-is-Lightbox-definition" target="_blank">lightbox</a><br />
+• Facilita su cierre con un simple clic fuera del pop-up o incluye una cruz bien visible.<br />
+• Utiliza una tracking cookie para evitar que el pop-up se vuelva a activar cada vez que el visitante abra tu sitio web.<br />
+• Activa el pop-up después de un minuto o después de haber visualizado dos páginas. Estos ajustes permiten al visitante conocerte mejor antes de pedirle realizar una acción.<br />
+• El contenido de tu pop-up tiene que resultar interesante para los visitantes. Presta especial atención al título para animar a los visitantes a realizar la acción. Por ejemplo, indica el número de personas que ya se han suscrito a tu newsletter o propón un descuento por cada suscripción.<br />
+• Prueba diferentes diseños y distintos parámetros de visualización hasta dar con lo que más te convenga.</p>
+<h4><span style="text-decoration: underline; color: #0232a0;">Lo que no se debe hacer</span></h4>
+<p style="padding-left: 30px;">• No actives muy a menudo tus pop-ups porque podrían catalogarte como spam.<br />
+• No pidas demasiada información. Por ejemplo, el correo electrónico, el nombre y los apellidos tendrían que bastar para una suscripción a la newsletter.<br />
+• Si no quieres perder definitivamente a tus visitantes, no utilices los pop-ups que se activan cuando desean abandonar una página.</p>
+<h2><span style="color: #64a101;">Ejemplos</span></h2>
+<p>Para inspirarte, he aquí algunos ejemplos de tiendas PrestaShop que utilizan pop-ups:</p>
+<h4 style="text-align: left;"><a href="http://www.enviedefraises.com/" target="_blank">Envie de Fraises</a><br />
+<img class="aligncenter  wp-image-12029" title="pop in 1" src="http://www.prestashop.com/blog/es/files/2014/10/pop-in-1.png" alt="" width="439" height="311" /></h4>
+<p style="padding-left: 30px;"><span style="color: #b9086b;"><strong>Lo que nos gusta</strong></span></p>
+<p style="padding-left: 30px;">• Que animan a la acción con 10 euros gratuitos al suscribirse a la newsletter<br />
+• Que el botón de acción se destaca con un enunciado atractivo</p>
+<h4 style="text-align: left;"><a href="http://myjoliecandle.com/en/" target="_blank">My Jolie Candle</a><br />
+<img class="aligncenter  wp-image-12030" title="pop in 2" src="http://www.prestashop.com/blog/es/files/2014/10/pop-in-2.png" alt="" width="371" height="329" /></h4>
+<p style="padding-left: 30px;"><span style="color: #b9086b;"><strong>Lo que nos gusta</strong></span></p>
+<p style="padding-left: 30px;">• Que aparezca el número de fans en Facebook, pues aporta credibilidad a la tienda<br />
+• Que el código promocional se incluya directamente en el pop-up es perfecto para llamar la atención e incitar a la compra</p>
+<h4 style="text-align: left;"><a href="http://www.rotring.com/en/" target="_blank">Rotring</a><br />
+<img class="aligncenter  wp-image-12031" title="pop in 3" src="http://www.prestashop.com/blog/es/files/2014/10/pop-in-3.png" alt="" width="349" height="408" /></h4>
+<p style="padding-left: 30px;"><span style="color: #b9086b;"><strong>Lo que nos gusta</strong></span></p>
+<p style="padding-left: 30px;">• Que la cruz sea totalmente visible, lo que permite cerrar el pop-up con facilidad<br />
+• Que el pop-up aparece pasados tres clics</p>
+<h4 style="text-align: left;"><a href="http://www.americanvintage-store.com/en/" target="_blank">American Vintage</a></h4>
+<p style="text-align: center;"><img class="aligncenter  wp-image-12032" title="pop in 4" src="http://www.prestashop.com/blog/es/files/2014/10/pop-in-4.png" alt="" width="503" height="260" /></p>
+<p style="padding-left: 30px;"><span style="color: #b9086b;"><strong>Lo que nos gusta</strong></span></p>
+<p style="padding-left: 30px;">• Que se pueda cerrar fácilmente con un simple clic fuera del pop-up<br />
+• Que se anuncian las ventajas para el visitante sin rodeos</p>
+<h4><span style="color: #0232a0;">Cómo instalar un pop-up</span></h4>
+<p>¿Te gustaría probar los pop-ups en tu tienda PrestaShop? Aquí tienes dos módulos que te permitirán crear y gestionar con facilidad los pop-ups:</p>
+<p style="text-align: center;"><a href="http://addons.prestashop.com/es/aplicaciones-front-office-prestashop-modulos/2191-box-notification-popup.html" target="_blank">Module Box Notification </a> o <a href="http://addons.prestashop.com/es/publicidad-marketing-newsletter-modulos/17079-marketing-popup.html" target="_blank">Module Marketing Popup</a></p>
+<h2><span style="color: #64a101;">Conclusión</span></h2>
+<p>Aunque no se pueda negar el intrusismo de los pop-ups, puedes obtener resultados sorprendentes si los utilizas de manera correcta. Será tu mejor amigo o tu peor enemigo, según cómo lo utilices.<br />
+En definitiva, siempre hay que: PROBAR y ANALIZAR</p>
+<h4><span style="color: #0232a0;">Pop-ups: ¿sí o no?</span></h4>
+<p>Como nunca hay unanimidad, nos gustaría conocer tu opinión sobre la pregunta. ¿Tienes experiencias que compartir? Esperamos tus comentarios para animar el debate.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/pop-ups-en-tu-sitio-web-ejemplos-y-metodo-para-2015/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Served from: www.prestashop.com @ 2014-11-21 17:56:03 -->

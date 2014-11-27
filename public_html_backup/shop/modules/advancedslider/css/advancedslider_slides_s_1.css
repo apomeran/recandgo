@@ -1,0 +1,427 @@
+
+			#sequence-theme, #sequence{
+				height: 450px;
+				}
+			@media only screen and (max-width: 480px) {
+	
+		#sequence-theme, #sequence{
+height: 99px;
+}	
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#sequence-theme, #sequence{
+height: 157.5px;
+}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+		#sequence-theme, #sequence{
+height:261px;
+}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1319px) {
+		#sequence-theme, #sequence{
+height: 355.5px;
+}
+}	
+		
+			
+#sequence #slide_li_1 {
+background-image:url(../images/e385393250fe83c6203255a3f5c72f37.jpg);
+background-repeat:no-repeat;
+	}
+
+#sequence  .animate-in .slide_1 h2 {
+transition-delay: 0ms;
+-moz-transition-delay: 0ms;
+-webkit-transition-delay: 0ms;
+-o-transition-delay: 0ms;
+}
+#sequence .animate-in .slide_1 h3 {
+transition-delay: 200ms;
+-moz-transition-delay: 200ms;
+-webkit-transition-delay: 200ms;
+-o-transition-delay: 200ms;
+}
+#sequence  .animate-in .slide_1 .desc{
+transition-delay: 400ms;
+-moz-transition-delay: 400ms;
+-webkit-transition-delay: 400ms;
+-o-transition-delay: 400ms;	
+	}
+			
+#sequence .slide_1 {
+  position: absolute;
+  left: -20%;
+  top: -20%;
+  width: 450px;
+  opacity: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition-duration: 1000ms;
+  -moz-transition-duration: 1000ms;
+  -ms-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+    z-index:  2;
+}
+#sequence .animate-in .slide_1 {
+  left: 8%;
+  top: 35%;
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-duration: 1000ms;
+  -moz-transition-duration: 1000ms;
+  -ms-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+  -webkit-transition-delay: 0ms;
+  -moz-transition-delay: 0ms;
+  -ms-transition-delay: 0ms;
+  -o-transition-delay: 0ms;
+  transition-delay: 0ms;
+}
+#sequence .animate-out .slide_1 {
+  left: -20%;
+  opacity: 0;
+  top: 20%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition-duration: 1000ms;
+  -moz-transition-duration: 1000ms;
+  -ms-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+
+@media only screen and (max-width: 480px) {
+	
+#sequence .slide_1{
+transform: scale(0.22) rotate(45deg) !important;
+-moz-transform: scale(0.22) rotate(45deg) !important;
+-webkit-transform: scale(0.22) rotate(45deg) !important;
+-o-transform: scale(0.22) rotate(45deg) !important;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#sequence .slide_1{
+transform: scale(0.35) rotate(45deg) !important;
+-moz-transform: scale(0.35) rotate(45deg) !important;
+-webkit-transform: scale(0.35) rotate(45deg) !important;
+-o-transform: scale(0.35) rotate(45deg) !important;
+}	
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+#sequence .slide_1{
+transform: scale(0.58) rotate(45deg) !important;
+-moz-transform: scale(0.58) rotate(45deg) !important;
+-webkit-transform: scale(0.58) rotate(45deg) !important;
+-o-transform: scale(0.58) rotate(45deg) !important;
+}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1319px) {
+#sequence .slide_1{
+transform: scale(0.79) rotate(45deg) !important;
+-moz-transform: scale(0.79) rotate(45deg) !important;
+-webkit-transform: scale(0.79) rotate(45deg) !important;
+-o-transform: scale(0.79) rotate(45deg) !important;
+}
+}
+
+/* showed */
+@media only screen and (max-width: 480px) {
+	
+#sequence .animate-in .slide_1 {
+transform: scale(0.22) rotate(0deg) !important;
+-moz-transform: scale(0.22) rotate(0deg) !important;
+-webkit-transform: scale(0.22) rotate(0deg) !important;
+-o-transform: scale(0.22) rotate(0deg) !important;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#sequence .animate-in .slide_1 {
+transform: scale(0.35) rotate(0deg) !important;
+-moz-transform: scale(0.35) rotate(0deg) !important;
+-webkit-transform: scale(0.35) rotate(0deg) !important;
+-o-transform: scale(0.35) rotate(0deg) !important;
+}	
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+#sequence .animate-in .slide_1 {
+transform: scale(0.58) rotate(0deg) !important;
+-moz-transform: scale(0.58) rotate(0deg) !important;
+-webkit-transform: scale(0.58) rotate(0deg) !important;
+-o-transform: scale(0.58) rotate(0deg) !important;
+}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1319px) {
+#sequence .animate-in .slide_1 {
+transform: scale(0.79) rotate(0deg) !important;
+-moz-transform: scale(0.79) rotate(0deg) !important;
+-webkit-transform: scale(0.79) rotate(0deg) !important;
+-o-transform: scale(0.79) rotate(0deg) !important;
+}
+}
+
+/* after */
+
+@media only screen and (max-width: 480px) {
+	
+#sequence .animate-out .slide_1 {
+transform: scale(0.22) rotate(45deg) !important;
+-moz-transform: scale(0.22) rotate(45deg) !important;
+-webkit-transform: scale(0.22) rotate(45deg) !important;
+-o-transform: scale(0.22) rotate(45deg) !important;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#sequence .animate-out .slide_1 {
+transform: scale(0.35) rotate(45deg) !important;
+-moz-transform: scale(0.35) rotate(45deg) !important;
+-webkit-transform: scale(0.35) rotate(45deg) !important;
+-o-transform: scale(0.35) rotate(45deg) !important;
+}	
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+#sequence .animate-out .slide_1 {
+transform: scale(0.58) rotate(45deg) !important;
+-moz-transform: scale(0.58) rotate(45deg) !important;
+-webkit-transform: scale(0.58) rotate(45deg) !important;
+-o-transform: scale(0.58) rotate(45deg) !important;
+}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1319px) {
+#sequence .animate-out .slide_1 {
+transform: scale(0.79) rotate(45deg) !important;
+-moz-transform: scale(0.79) rotate(45deg) !important;
+-webkit-transform: scale(0.79) rotate(45deg) !important;
+-o-transform: scale(0.79) rotate(45deg) !important;
+}
+}
+
+
+
+		
+			
+#sequence #slide_li_2 {
+background-image:url(../images/b73990c5b59046f064519190f02b2949.jpg);
+background-repeat:no-repeat;
+	}
+
+#sequence  .animate-in .slide_2 h2 {
+transition-delay: 0ms;
+-moz-transition-delay: 0ms;
+-webkit-transition-delay: 0ms;
+-o-transition-delay: 0ms;
+}
+#sequence .animate-in .slide_2 h3 {
+transition-delay: 200ms;
+-moz-transition-delay: 200ms;
+-webkit-transition-delay: 200ms;
+-o-transition-delay: 200ms;
+}
+#sequence  .animate-in .slide_2 .desc{
+transition-delay: 400ms;
+-moz-transition-delay: 400ms;
+-webkit-transition-delay: 400ms;
+-o-transition-delay: 400ms;	
+	}
+			
+#sequence .slide_2 {
+  position: absolute;
+  left: -20%;
+  top: -20%;
+  width: 450px;
+  opacity: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition-duration: 1000ms;
+  -moz-transition-duration: 1000ms;
+  -ms-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+    z-index:  2;
+}
+#sequence .animate-in .slide_2 {
+  left: 8%;
+  top: 35%;
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-duration: 1000ms;
+  -moz-transition-duration: 1000ms;
+  -ms-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+  -webkit-transition-delay: 0ms;
+  -moz-transition-delay: 0ms;
+  -ms-transition-delay: 0ms;
+  -o-transition-delay: 0ms;
+  transition-delay: 0ms;
+}
+#sequence .animate-out .slide_2 {
+  left: -20%;
+  opacity: 0;
+  top: 20%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition-duration: 1000ms;
+  -moz-transition-duration: 1000ms;
+  -ms-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+
+@media only screen and (max-width: 480px) {
+	
+#sequence .slide_2{
+transform: scale(0.22) rotate(45deg) !important;
+-moz-transform: scale(0.22) rotate(45deg) !important;
+-webkit-transform: scale(0.22) rotate(45deg) !important;
+-o-transform: scale(0.22) rotate(45deg) !important;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#sequence .slide_2{
+transform: scale(0.35) rotate(45deg) !important;
+-moz-transform: scale(0.35) rotate(45deg) !important;
+-webkit-transform: scale(0.35) rotate(45deg) !important;
+-o-transform: scale(0.35) rotate(45deg) !important;
+}	
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+#sequence .slide_2{
+transform: scale(0.58) rotate(45deg) !important;
+-moz-transform: scale(0.58) rotate(45deg) !important;
+-webkit-transform: scale(0.58) rotate(45deg) !important;
+-o-transform: scale(0.58) rotate(45deg) !important;
+}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1319px) {
+#sequence .slide_2{
+transform: scale(0.79) rotate(45deg) !important;
+-moz-transform: scale(0.79) rotate(45deg) !important;
+-webkit-transform: scale(0.79) rotate(45deg) !important;
+-o-transform: scale(0.79) rotate(45deg) !important;
+}
+}
+
+/* showed */
+@media only screen and (max-width: 480px) {
+	
+#sequence .animate-in .slide_2 {
+transform: scale(0.22) rotate(0deg) !important;
+-moz-transform: scale(0.22) rotate(0deg) !important;
+-webkit-transform: scale(0.22) rotate(0deg) !important;
+-o-transform: scale(0.22) rotate(0deg) !important;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#sequence .animate-in .slide_2 {
+transform: scale(0.35) rotate(0deg) !important;
+-moz-transform: scale(0.35) rotate(0deg) !important;
+-webkit-transform: scale(0.35) rotate(0deg) !important;
+-o-transform: scale(0.35) rotate(0deg) !important;
+}	
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+#sequence .animate-in .slide_2 {
+transform: scale(0.58) rotate(0deg) !important;
+-moz-transform: scale(0.58) rotate(0deg) !important;
+-webkit-transform: scale(0.58) rotate(0deg) !important;
+-o-transform: scale(0.58) rotate(0deg) !important;
+}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1319px) {
+#sequence .animate-in .slide_2 {
+transform: scale(0.79) rotate(0deg) !important;
+-moz-transform: scale(0.79) rotate(0deg) !important;
+-webkit-transform: scale(0.79) rotate(0deg) !important;
+-o-transform: scale(0.79) rotate(0deg) !important;
+}
+}
+
+/* after */
+
+@media only screen and (max-width: 480px) {
+	
+#sequence .animate-out .slide_2 {
+transform: scale(0.22) rotate(45deg) !important;
+-moz-transform: scale(0.22) rotate(45deg) !important;
+-webkit-transform: scale(0.22) rotate(45deg) !important;
+-o-transform: scale(0.22) rotate(45deg) !important;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#sequence .animate-out .slide_2 {
+transform: scale(0.35) rotate(45deg) !important;
+-moz-transform: scale(0.35) rotate(45deg) !important;
+-webkit-transform: scale(0.35) rotate(45deg) !important;
+-o-transform: scale(0.35) rotate(45deg) !important;
+}	
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+#sequence .animate-out .slide_2 {
+transform: scale(0.58) rotate(45deg) !important;
+-moz-transform: scale(0.58) rotate(45deg) !important;
+-webkit-transform: scale(0.58) rotate(45deg) !important;
+-o-transform: scale(0.58) rotate(45deg) !important;
+}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1319px) {
+#sequence .animate-out .slide_2 {
+transform: scale(0.79) rotate(45deg) !important;
+-moz-transform: scale(0.79) rotate(45deg) !important;
+-webkit-transform: scale(0.79) rotate(45deg) !important;
+-o-transform: scale(0.79) rotate(45deg) !important;
+}
+}
+
+
+

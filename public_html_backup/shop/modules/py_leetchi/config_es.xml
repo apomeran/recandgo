@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>py_leetchi</name>
+	<displayName><![CDATA[Leetchi.com]]></displayName>
+	<version><![CDATA[1]]></version>
+	<description><![CDATA[Propose les paiements via Leetchi.com &agrave; vos clients]]></description>
+	<author><![CDATA[PierreYves.be]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
