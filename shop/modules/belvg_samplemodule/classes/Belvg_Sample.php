@@ -34,8 +34,8 @@ class Belvg_Sample extends ObjectModel
 	/** @var integer */
 	public $id_product;
 	
-	/** @var integer */
-	public $textarea;
+	// /** @var integer */
+	// public $textarea;
 	
 	/** @var integer */
 	public $enabled_crowdfunding;
@@ -49,7 +49,6 @@ class Belvg_Sample extends ObjectModel
         'multilang' => FALSE,
         'fields' => array(
             'id_product' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => TRUE),
-            'textarea' => array('type' => self::TYPE_HTML, 'validate' => 'isString'),
             'enabled_crowdfunding' => array('type' => self::TYPE_INT, 'validate' => 'isInt', 'required' => TRUE),
         ),
     );

@@ -55,7 +55,6 @@ class Belvg_SampleModule extends Module {
         $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'product_crowdfunding` (
                   `id_belvg_samplemodule` int(10) unsigned NOT NULL AUTO_INCREMENT,
                   `id_product` INT( 11 ) UNSIGNED NOT NULL,
-                  `textarea` TEXT NOT NULL,
                   `enabled_crowdfunding` INT NOT NULL DEFAULT "1",
                   PRIMARY KEY (`id_belvg_samplemodule`),
                   UNIQUE  `BELVG_SAMPLE_UNIQ` (  `id_product` )
@@ -102,7 +101,6 @@ class Belvg_SampleModule extends Module {
         $sampleObj = Belvg_Sample::loadByIdProduct($id_product);
         if(!empty($sampleObj) && isset($sampleObj->id)){
             $this->context->smarty->assign(array(
-                'belvg_textarea' => $sampleObj->textarea,
                 'belvg_enabled_crowdfunding' => $sampleObj->enabled_crowdfunding,
             ));
         }
@@ -113,7 +111,6 @@ class Belvg_SampleModule extends Module {
     public function hookActionProductUpdate($params) {
         $id_product = Tools::getValue('id_product');
         $sampleObj = Belvg_Sample::loadByIdProduct($id_product);
-        $sampleObj->textarea = Tools::getValue('belvg_sample');
 		$sampleObj->enabled_crowdfunding = 0;
 		if (Tools::getValue('enabled_crowdfunding') == 'on')
 			$sampleObj->enabled_crowdfunding = 1;
@@ -131,7 +128,6 @@ class Belvg_SampleModule extends Module {
         $sampleObj = Belvg_Sample::loadByIdProduct($id_product);
         if(!empty($sampleObj) && isset($sampleObj->id)){
             $this->context->smarty->assign(array(
-                'belvg_textarea' => $sampleObj->textarea,
                 'belvg_enabled_crowdfunding' => $sampleObj->enabled_crowdfunding,
 
             ));

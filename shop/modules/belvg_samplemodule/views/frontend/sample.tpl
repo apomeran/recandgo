@@ -24,11 +24,3 @@
  * @license    http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt 
  *}
  
-{if isset($belvg_textarea)}
-<!-- Belvg_SampleModule -->
-	<fieldset style="border:none;">
-        <textarea name="belvg_sample" rows="10" cols="45">{$belvg_textarea}</textarea>
-    </fieldset>
-<div class="clear">&nbsp;</div>
-<!-- /Belvg_SampleModule -->
-{/if}

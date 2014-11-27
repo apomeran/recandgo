@@ -29,8 +29,6 @@
 	<h4>{l s='Descripcion Crowdfunding' mod='belvg_samplemodule'}</h4>
 	<div class="separation"></div>
 	<fieldset style="border:none;">
-	   <textarea name="belvg_sample" rows="10" cols="45">{if isset($belvg_textarea)}{$belvg_textarea}{/if}</textarea>
-	   <br>
 	   <input type="checkbox" name="enabled_crowdfunding" {if isset($belvg_enabled_crowdfunding) && $belvg_enabled_crowdfunding} checked {/if}>Habilitar producto para CrowdFunding</input>
        
         
